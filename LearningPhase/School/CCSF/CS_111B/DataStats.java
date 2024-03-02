@@ -133,10 +133,10 @@ public class DataStats {
 
         // locate, calculate, and print out the median
         if (arrLen % 2 == 1){
-            median = arrCon[arrLen / 2 + 1];
+            median = arrCon[arrLen / 2];
         }
         else {
-            median = (arrCon[arrLen / 2] + arrCon[arrLen / 2 + 1]) / 2;
+            median = (arrCon[arrLen / 2 - 1] + arrCon[arrLen / 2]) / 2;
         }
         System.out.println("Median: " + median);
 
