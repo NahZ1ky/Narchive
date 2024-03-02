@@ -38,7 +38,8 @@
  *      |    B. shift "i" to the next slot
  *      └────────┘
  *     4. Median
- *        i. locate the two or one number in the middle of the list
+ *        i. sort "arrCon"
+ *        ii. locate the two or one number in the middle of the list
  *           if there're two numbers:
  *           A. calculate the average of the numbers
  *           B. set the calculated number as median
@@ -131,7 +132,8 @@ public class DataStats {
         }
         System.out.println("Palindrome: " + isPalindrome);
 
-        // locate, calculate, and print out the median
+        // sort, locate, calculate, and print out the median
+        Arrays.sort(arrCon);
         if (arrLen % 2 == 1){
             median = arrCon[arrLen / 2];
         }
