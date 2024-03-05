@@ -1,5 +1,5 @@
-// Author: Xirong (Ziky) Zhang &
-// Date of Last Modification: 02/29/2024
+// Author: Xirong (Ziky) Zhang & Shawn Luna & Azeal Riday
+// Date of Last Modification: 03/02/2024
 // Course: CS-111B
 // Instructor: C. Conner
 // Assignment #4
@@ -174,4 +174,3 @@ public class DataStats {
 
   }
 }
-

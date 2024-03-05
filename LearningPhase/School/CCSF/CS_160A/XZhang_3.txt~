@@ -1,9 +1,0 @@
-Task A: 
-S[zzhan221@hills ~]$ ls -al | cut -c1 | wc -w
-12
-
-Task B:
-[zzhan221@hills bin]$ cut -f7 -d' ' famous.dat | sort -u | wc -l
-33
-
-

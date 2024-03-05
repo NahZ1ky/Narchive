@@ -1,0 +1,9 @@
+Task A:
+[zzhan221@hills ~]$ find /pub/cs/ -name cs160a 2>/dev/null
+/pub/cs/cmetzler/bin/cs160a
+/pub/cs/cconner/cs160a
+/pub/cs/gboyd/cs160a
+/pub/cs/gboyd/cs160a/paths/jmoraz/cs160a
+/pub/cs/amoghtan/cs160a
+/pub/cs/grwoo/cs160a
+/pub/cs/bstapleton/cs160a
