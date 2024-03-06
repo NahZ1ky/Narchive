@@ -1,4 +1,3 @@
-package zybook;
 import java.util.Scanner;
 
 public class zybook_416 {

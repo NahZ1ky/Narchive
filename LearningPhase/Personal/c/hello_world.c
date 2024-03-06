@@ -45,12 +45,3 @@ int main(int argc, char const *argv[]){
         if (c == ' '){
             ++ns;
         }
-
-        if (/* condition */)
-        {
-            /* code */
-        }
-        
-    printf("%d\n", nws);
-
-}
