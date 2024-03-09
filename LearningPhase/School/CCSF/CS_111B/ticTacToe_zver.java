@@ -1,30 +1,22 @@
-/*
-ALGORITHM:
-I. initialize ALGORITHM:
-II.  Display board
-III. While no win or tie
-     A. player takes a turn
-     B. change player
-*/
-
-// Author(s): Constance Conner and Ziky Zhang
-// Date of Last Modification: 03/8/2024
+// Author: Ziky Zhang
+// Date of Last Modification: 
 // Course: CS111B
-// Instructor: C. Conner
-// File Name: TicTacToeStub.java
-// This program will plays a simplified version of Tic Tac Toe using 2-D array
+// File Name: ticTacToe_zver.java
 
+import java.util.*;
 
-import java.util.Scanner;
-
-public class TicTacToeStub{
+public class ticTacToe_zver{
     ///////  STEP 1: initialize board ////////
     // board will be size x size array
     // use a nested for-loop to initialize/assign
     // each element to a dash '-'
-    public static char[][] initBoard(int size)
-    {
-        char[][] board = new char[size][size];
+    public static char[][] initBoard(int size){
+        char board[][] = new char[size][size];
+        for (int i = 0; i < size; i++){
+            for (int j = 0; j < size; j++){
+                board[i][j] = '-';
+            }
+        }
         return null;
     }
 
@@ -32,20 +24,48 @@ public class TicTacToeStub{
     // Display the current status of the board on the
     // screen using nested for-loop to display each element
     // and using underscores (_) to separate rows
-    //PUT YOUR CODE FOR display Here
-
-    /*
-        CREATE YOUR display METHOD HERE
-        returns void - takes 2-D array as parameter
-    */
+    public static String printBoard(char[][] board){
+        for (int i = 0; i < board.length; i++){
+            System.out.println("________");
+            for (int j = 0; j < board[0].length; j++){
+                System.out.print(board[i][j]  + "  ");
+            }
+            System.out.println();
+        }
+        System.out.println("________");
+        return null;
+    }
 
     ///////  STEP 3: check for win ////////
     // check 3 rows, 3 columns, 2 diagonals
     // return true if we have a winner
-    public static boolean isWinner(char move, char [][] board)
+    public static boolean isWinner(char move, char[][] board)
     {
-        //YOUR CODE HERE
-        return false;
+        boolean win = true;
+        for (int i = 0; i < board.length; i++){
+            char row = board[i][0];
+            for (int j = 1; j < (board[0].length - 1); j++){
+                if (row == board[i][j]){
+                    row = board[i][j];
+                } else {
+                    win = false;
+                    break;
+                }
+            }
+            if (win){
+                return true;
+            }
+        }
+        for (int i = 0; i < board.length; i++){
+            char column = board[0][i];
+            for (int j = 1; j < (board[0].length - 1); j++){
+                if (column == board[j][i]){
+                    column = board[j][i];
+                }
+            }
+        }
+
+        return true;
     }
 
     ///////  STEP 4: check for tie ////////
@@ -131,15 +151,7 @@ public class TicTacToeStub{
 
         /////// beginning of  display board ////////
         // STEP 2: PUT CODE TO DISPLAY INTO A METHOD named display SEE STEP 2 ABOVE
-        System.out.println("\n--------");
-        for(int row=0; row < board.length; row++)
-        {
-        for(int col=0; col < board[row].length; col++)
-            System.out.print(board[row][col] + "  ");
-        System.out.println();
-        System.out.println("--------");
-        }
-        System.out.println();
+
         ///////  end of display board ////////
         ///CALL display METHOD HERE passing board as argument
 
