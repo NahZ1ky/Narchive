@@ -18,33 +18,75 @@ III. While no win or tie
 import java.util.Scanner;
 
 public class TicTacToeStub{
-    ///////  STEP 1: initialize board ////////
-    // board will be size x size array
-    // use a nested for-loop to initialize/assign
-    // each element to a dash '-'
+    // Board size initialize
     public static char[][] initBoard(int size)
     {
+        Scanner scnr = new Scanner(System.in);
+        size = scnr.nextInt();
         char[][] board = new char[size][size];
         return null;
     }
 
-    ///////  STEP 2: display board ////////
-    // Display the current status of the board on the
-    // screen using nested for-loop to display each element
-    // and using underscores (_) to separate rows
-    //PUT YOUR CODE FOR display Here
-
-    /*
-        CREATE YOUR display METHOD HERE
-        returns void - takes 2-D array as parameter
-    */
+    // Display board
+    public static String display(char[][] board[][]){
+        System.out.println("\n--------");
+        for(int row=0; row < board.length; row++)
+        {
+        for(int col=0; col < board[row].length; col++)
+            System.out.print(board[row][col] + "  ");
+        System.out.println();
+        System.out.println("--------");
+        }
+        System.out.println();
+        return null;
+    }
 
     ///////  STEP 3: check for win ////////
     // check 3 rows, 3 columns, 2 diagonals
     // return true if we have a winner
     public static boolean isWinner(char move, char [][] board)
     {
-        //YOUR CODE HERE
+        boolean win = false;
+        if (!win){ // checking row
+            for (int i = 0; i < board.length; i++){
+                char initial = board[i][0];
+                for (int j = 1; j < board.length; j++){
+                    if (initial != board[i][j]){
+                        break;
+                    } else if ((initial == board[i][2]) && (initial == move)){
+                        win = true;
+                        return true;
+                    }
+                }
+            }
+        } if (!win){ // checking column
+            for (int j = 0; j < board.length; j++){
+                char initial = board[0][j];
+                for (int i = 1; i < board.length; i++){
+                    if (initial != board[i][j]){
+                        break;
+                    } else if ((initial == board[2][j]) && (initial == move)){
+                        win = true;
+                        return true;
+                    }
+                }
+            }
+        } if (!win){ // checking diagonal > \
+            for (int i = 0; i < 3; i++){
+                char initial = board[0][0];
+                if (initial != board[1][1]){
+                    break;
+                } else if ((initial == board[2][2]) && (initial == move)){
+                    win = true;
+                    return true;
+                }
+            }
+        } if (!win){ // checking diagonal > /
+            if ((board[0][2] == board[1][1]) && (board[1][1] == board[2][0]) && board[0][2] == move){
+                win = true;
+                return true;
+            }
+        }
         return false;
     }
 
@@ -53,8 +95,19 @@ public class TicTacToeStub{
     // if any element is not a dash (-) tie is false
     public static boolean isTie(char [][] tieBoard)
     {
-        // YOUR CODE HERE
-        return false;
+        boolean allDash = true;
+        for (int i = 0; i < tieBoard.length; i++){
+            for (int j = 0; j < tieBoard.length; j++){
+                if (tieBoard[i][j] == '-'){
+                    allDash = false;
+                }
+            }
+        }
+        if (!allDash){
+            return false;
+        } else {
+            return true;
+        }
     }
 
     ///////  takeTurn  ////////
@@ -129,17 +182,8 @@ public class TicTacToeStub{
         board = initBoard(3);
         System.out.println("***LET'S PLAY TIC TAC TOE***");
 
-        /////// beginning of  display board ////////
+        /////// beginning of display board ////////
         // STEP 2: PUT CODE TO DISPLAY INTO A METHOD named display SEE STEP 2 ABOVE
-        System.out.println("\n--------");
-        for(int row=0; row < board.length; row++)
-        {
-        for(int col=0; col < board[row].length; col++)
-            System.out.print(board[row][col] + "  ");
-        System.out.println();
-        System.out.println("--------");
-        }
-        System.out.println();
         ///////  end of display board ////////
         ///CALL display METHOD HERE passing board as argument
 
