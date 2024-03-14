@@ -7,7 +7,7 @@ III. While no win or tie
      B. change player
 */
 
-// Author(s): Constance Conner and Ziky Zhang
+// Author(s): Constance Conner and Ziky Zhang and 
 // Date of Last Modification: 03/8/2024
 // Course: CS111B
 // Instructor: C. Conner
@@ -42,8 +42,6 @@ public class TicTacToeStub{
     }
 
     ///////  STEP 3: check for win ////////
-    // check 3 rows, 3 columns, 2 diagonals
-    // return true if we have a winner
     public static boolean isWinner(char move, char [][] board)
     {
         boolean win = false;
@@ -91,8 +89,6 @@ public class TicTacToeStub{
     }
 
     ///////  STEP 4: check for tie ////////
-    // check each element in board
-    // if any element is not a dash (-) tie is false
     public static boolean isTie(char [][] tieBoard)
     {
         boolean allDash = true;
