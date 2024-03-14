@@ -1,9 +1,9 @@
 # exclude .DS_Store
-.DS_Store
+*.DS_Store
 
 # exclude all compiled files
-*\.class
-*\.out
+*.class
+*.out
 
 # excluded directory
 LearningPhase/School/CCSF/CS_111B/
@@ -15,3 +15,5 @@ test.*
 # general excluded files:
 LearningPhase/Personal/c/wordCount.java
 LearningPhase/Personal/c/wordCount.c
+LearningPhase/School/CCSF/CS_111B/.DS_Store
+LearningPhase/School/CCSF/.DS_Store
