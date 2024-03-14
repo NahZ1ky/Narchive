@@ -10,10 +10,8 @@ LearningPhase/School/CCSF/CS_111B/
 .vscode/
 
 # excluded keyword:
-test.*
+*test.*
 
 # general excluded files:
 LearningPhase/Personal/c/wordCount.java
 LearningPhase/Personal/c/wordCount.c
-LearningPhase/School/CCSF/CS_111B/.DS_Store
-LearningPhase/School/CCSF/.DS_Store
