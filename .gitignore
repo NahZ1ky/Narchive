@@ -1,5 +1,5 @@
 # exclude .DS_Store
-*.DS_Store
+.DS_Store
 
 # exclude all compiled files
 *.class
