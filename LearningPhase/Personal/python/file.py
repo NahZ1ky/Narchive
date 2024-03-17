@@ -1,4 +1,3 @@
-From Kaggle: 
 "MNIST ("Modified National Institute of Standards and Technology") is thex de facto “hello world” dataset of computer vision. Since its release in 1999, this classic dataset of handwritten images has served as the basis for benchmarking classification algorithms. As new machine learning te chniques emerge, MNIST remains a reliable resource for researchers and learners alike."
 
 [Read more.](https://www.kaggle.com/c/digit-recognizer)
@@ -25,13 +24,13 @@ args={}
 kwargs={}
 args['batch_size']=1000
 args['test_batch_size']=1000
-args['epochs']=10  #The number of Epochs is the number of times you go through the full dataset. 
-args['lr']=0.01 #Learning rate is how fast it will decend. 
+args['epochs']=10  #The number of Epochs is the number of times you go through the full dataset.
+args['lr']=0.01 #Learning rate is how fast it will decend.
 args['momentum']=0.5 #SGD momentum (default: 0.5) Momentum is a moving average of our gradients (helps to keep direction).
 
 args['seed']=1 #random seed
 args['log_interval']=10
-args['cuda']=False 
+args['cuda']=False
 
 
 #load the data
@@ -47,7 +46,7 @@ test_loader = torch.utils.data.DataLoader(
                        transforms.ToTensor(),
                        transforms.Normalize((0.1307,), (0.3081,))
                    ])),
-    batch_size=args['test_batch_size'], shuffle=True, **kwargs) 
+    batch_size=args['test_batch_size'], shuffle=True, **kwargs)
 
 
 

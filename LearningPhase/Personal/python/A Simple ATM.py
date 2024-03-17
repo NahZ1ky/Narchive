@@ -8,7 +8,7 @@ class ATM:
     if amount <= self.__balance:
       self.__balance = self.__balance - amount
       self.check()
-    else: 
+    else:
       self.check()
 
   def check(self):
