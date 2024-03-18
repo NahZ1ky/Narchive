@@ -16,12 +16,11 @@ colors=($Black $Red $Green $Yellow $Blue $Purple $Cyan $White)
 numColors=${#colors[@]}
 # echo $numColors
 echo "How many times do you want this program to run?"
-read $runCount
+read runCount
 
-for ((i=0; i<runCount; i++))
-do
+for a in `seq 1 $runCount`; do
     echo "Type something and I'll echo it"
     read lolInput
     index=$(($RANDOM % $numColors))
-    echo -e "${colors[$index]}$lolInput"
+    echo -e "${colors[$index]}$lolInput\033[0m"
 done
