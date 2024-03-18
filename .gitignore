@@ -11,7 +11,7 @@ LearningPhase/School/CCSF/CS_111B/
 
 # excluded keyword:
 *test.*
+*.test
 
 # general excluded files:
 LearningPhase/Personal/c/wordCount.java
-LearningPhase/Personal/c/wordCount.c
