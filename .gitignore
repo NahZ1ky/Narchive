@@ -1,0 +1,10 @@
+# exclude all files in .vscode/
+/.vscode/
+
+# exclude all compiled files
+*.class
+*.o
+*.out
+
+# exclude all .DS_Store files
+.DS_Store
