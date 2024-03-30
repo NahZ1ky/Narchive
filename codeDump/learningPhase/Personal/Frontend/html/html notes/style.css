@@ -1,0 +1,14 @@
+.content-of-side-bar{
+   background-color: aliceblue;
+}
+
+
+
+aside {
+   width: 30%;
+   float: right;
+   font-style: normal;
+   box-shadow: inset 5px 0 5px -5px;
+   padding-left: .5rem;
+   margin-left: .5rem;
+}
