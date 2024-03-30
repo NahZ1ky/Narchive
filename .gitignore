@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # exclude all files in .vscode/
 /.vscode/
 
@@ -6,5 +7,17 @@
 *.o
 *.out
 
-# exclude all .DS_Store files
+# exclude .DS_Store
 .DS_Store
+
+# excluded directory
+codeDump/learningPhase/School/CCSF/CS_111B/
+.vscode/
+
+# excluded keyword:
+*test.*
+*.test
+
+# general excluded files:
+codeDump/learningPhase/Personal/c/wordCount.java
+>>>>>>> mycodes
