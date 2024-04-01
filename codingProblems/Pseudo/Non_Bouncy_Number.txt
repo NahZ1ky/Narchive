@@ -1,0 +1,63 @@
+/*
+ * Working from left-to-right if no digit is exceeded by the digit to its left it is called an increasing number; for example, 134468.
+ * Similarly if no digit is exceeded by the digit to its right it is called a decreasing number; for example, 66420.
+ * We shall call a positive integer that is neither increasing nor decreasing a "bouncy" number; for example, 155349.
+ * As n increases, the proportion of bouncy numbers below n increases such that there are only 12951 numbers below one-million that are not bouncy and only 277032 non-bouncy numbers below 10^10.
+ *
+ * How many numbers below a googol (10^100) are not bouncy?
+ */
+
+
+header
+
+for 10^100(NUMBER)
+    set TARGET_INDEX = LOCAL_INDEX = 0
+    NUMBER -> string
+    STATIC_STATE()
+    if STATIC_STATE != Flat
+        LOCAL_STATE()
+    else
+        NON_BOUNCY_NUMBER++
+
+    if LOCAL_STATE return Pass
+        NON_BOUNCY_NUMBER++
+
+
+def SWITCH_NUMBER(LOCAL_NUMBER, TARGET_NUMBER):
+    TARGET_NUMBER = LOCAL_NUMBER
+    LOCAL_NUMBER = NUMBER[LOCAL_INDEX]
+
+def STATIC_STATE(LOCAL_INDEX, LOCAL_NUMBER, TARGET_NUMBER, NUMBER):
+    while True
+        if (LOCAL_NUMBER == TARGET_NUMBER) and (LOCAL_INDEX == NUMBER_LENGTH)
+            set STATIC_STATE = Flat
+            return STATIC_STATE
+        elif LOCAL_NUMBER < TARGET_NUMBER
+            set STATIC_STATE = Decreasing
+            return STATIC_STATE
+        elif LOCAL_NUMBER > TARGET_NUMBER
+            set STATIC_STATE = Increasing
+            return STATIC_STATE
+        elif LOCAL_NUMBER == TARGET_NUMBER
+            LOCAL_INDEX++
+
+def LOCAL_STATE (STATIC_STATE, LOCAL_INDEX, LOCAL_NUMBER, TARGET_NUMBER, NUMBER):
+    do
+        if (LOCAL_NUMBER == TARGET_NUMBER) and (LOCAL_INDEX == NUMBER_LENGTH)
+            set LOCAL_STATE = Flat
+            return Pass
+        elif LOCAL_NUMBER < TARGET_NUMBER
+            set LOCAL_STATE = Decreasing
+            LOCAL_INDEX++
+            SWITCH_NUMBER()
+        elif LOCAL_NUMBER > TARGET_NUMBER
+            set LOCAL_STATE = Increasing
+            LOCAL_INDEX++
+            SWITCH_NUMBER()
+        elif LOCAL_NUMBER == TARGET_NUMBER
+            LOCAL_INDEX++
+            SWITCH_NUMBER()
+    while (STATIC_STATE == LOCAL_STATE)
+
+// known problem: *LOCAL_STATE* index will out of bound
+// known problem: *LOCAL_STATE* need other way to exit method
