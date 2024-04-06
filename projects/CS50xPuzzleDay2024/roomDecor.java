@@ -1,4 +1,3 @@
-package projects.CS50xPuzzleDay2024;
 import java.util.HashMap;
 
 public class roomDecor {
@@ -329,6 +328,7 @@ public class roomDecor {
 
     public static void exhaustiveSearch() {
         initLayout();
+        int count = 0;
         final String[] ROOM_COLOR_COMB = new String[] {
             "RGBY",
             "RGYB",
@@ -398,8 +398,11 @@ public class roomDecor {
                     layout[4][3] = ALL_COLORS_PLUS_EMPTY[digits[6]];
                     layout[4][4] = ALL_COLORS_PLUS_EMPTY[digits[7]];
 
+                    System.out.println(count++);
+
                     if (testLayout(layout)) {
                         printLayout(layout);
+                        return;
                     }
                 }
             }
