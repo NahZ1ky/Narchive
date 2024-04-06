@@ -32,18 +32,22 @@ public class roomDecor {
     // Each of the two cool colors (blue and green) must not appear on the same side of the house as the other.
     public static boolean condition2(String[][] layout){
         for (int i = 1; i < 5; i++){
-            if (layout[1][i].equals("B") || layout[4][i].equals("B")){
+            if (layout[1][i] != null && layout[1][i].equals("B") ||
+                layout[4][i] != null && layout[4][i].equals("B")){
                 for (int j = 1; j < 5; j++){
-                    if (layout[1][j].equals("G") || layout[4][j].equals("G")){
+                    if (layout[1][j] != null && layout[1][j].equals("G") ||
+                        layout[4][j] != null && layout[4][j].equals("G")){
                         return false;
                     }
                 }
             }
         }
         for (int i = 1; i < 5; i++){
-            if (layout[2][i].equals("B") || layout[3][i].equals("B")){
+            if (layout[2][i] != null && layout[2][i].equals("B") ||
+                layout[3][i] != null && layout[3][i].equals("B")){
                 for (int j = 1; j < 5; j++){
-                    if (layout[2][j].equals("G") || layout[3][j].equals("G")){
+                    if (layout[2][j] != null && layout[2][j].equals("G") ||
+                        layout[3][j] != null && layout[3][j].equals("G")){
                         return false;
                     }
                 }
@@ -54,10 +58,14 @@ public class roomDecor {
 
     // There must not be any modern objects downstairs.
     public static boolean condition3(String[][] layout){
-        if (layout[3][1].equals("Y") || layout[4][1].equals("Y")
-            || layout[3][2].equals("R") || layout[4][2].equals("R")
-            || layout[3][3].equals("G") || layout[4][3].equals("G")
-            || layout[3][4].equals("B") || layout[4][4].equals("B")){
+        if ((layout[3][1] != null && layout[3][1].equals("Y")) ||
+            (layout[4][1] != null && layout[4][1].equals("Y")) ||
+            (layout[3][2] != null && layout[3][2].equals("R")) ||
+            (layout[4][2] != null && layout[4][2].equals("R")) ||
+            (layout[3][3] != null && layout[3][3].equals("G")) ||
+            (layout[4][3] != null && layout[4][3].equals("G")) ||
+            (layout[3][4] != null && layout[3][4].equals("B")) ||
+            (layout[4][4] != null && layout[4][4].equals("B"))){
             return false;
         }
         return true;
@@ -103,10 +111,7 @@ public class roomDecor {
     public static boolean condition6(String[][] layout){
         for (int i = 1; i < 5; i++){
             for (int j = 1; j < 5; j++){
-                if (layout[i][3].equals(layout[j][3])
-                 && layout[i][3] != null
-                 && layout[j][3] != null
-                 && i != j){
+                if (layout[i][3] != null && layout[j][3] != null && layout[i][3].equals(layout[j][3]) && i != j){
                     return false;
                 }
             }
@@ -118,24 +123,24 @@ public class roomDecor {
     public static boolean condition7(String[][] layout){
         int countRetro = 0;
         for (int i = 1; i < 5; i++){
-            if (layout[i][1] == null || layout[i][2] == null
-             || layout[i][3] == null || layout[i][4] == null){
+            if (layout[i][1] == null || layout[i][2] == null ||
+                layout[i][3] == null || layout[i][4] == null){
                 continue;
             } else {
                 // check walls
-                if (layout[i][1].equals("G")){
+                if (layout[i][1] != null && layout[i][1].equals("G")){
                     countRetro++;
                 }
                 // check hangings
-                if (layout[i][2].equals("B")){
+                if (layout[i][2] != null && layout[i][2].equals("B")){
                     countRetro++;
                 }
                 // check curios
-                if (layout[i][3].equals("Y")){
+                if (layout[i][3] != null && layout[i][3].equals("Y")){
                     countRetro++;
                 }
                 // check lamps
-                if (layout[i][4].equals("R")){
+                if (layout[i][4] != null && layout[i][4].equals("R")){
                     countRetro++;
                 }
             }
@@ -151,16 +156,16 @@ public class roomDecor {
         int countRight = 0;
         int countLeft = 0;
         for (int i = 1; i < 5; i++){
-            if (layout[2][i].equals("R")){
+            if (layout[2][i] != null && layout[2][i].equals("R")){
                 countRight++;
             }
-            if (layout[4][i].equals("R")){
+            if (layout[4][i] != null && layout[4][i].equals("R")){
                 countRight++;
             }
-            if (layout[1][i].equals("R")){
+            if (layout[1][i] != null && layout[1][i].equals("R")){
                 countLeft++;
             }
-            if (layout[3][i].equals("R")){
+            if (layout[3][i] != null && layout[3][i].equals("R")){
                 countLeft++;
             }
         }
@@ -174,10 +179,10 @@ public class roomDecor {
     public static boolean condition9(String[][] layout){
         for (int i = 1; i < 5; i++){
             for (int j = 1; j < 5; j++){
-                if (layout[i][1].equals(layout[j][1])
-                 && layout[i][1] != null
-                 && layout[j][1] != null
-                 && i != j){
+                if (layout[i][1] != null &&
+                    layout[j][1] != null &&
+                    layout[i][1].equals(layout[j][1]) &&
+                    i != j){
                     return false;
                 }
             }
@@ -186,26 +191,31 @@ public class roomDecor {
     }
 
     // In the upstairs of the house, the wall color must match the color of at least one of the objects in the room. In the downstairs, the wall color must not match the color of any of the objects in the room.
+    /**
+     * @param layout
+     * @return
+     */
     public static boolean condition10(String[][] layout){
         int countBathroom = 0;
         int countBedroom = 0;
         int countLivingRoom = 0;
         int countKitchen = 0;
         for (int i = 1; i < 5; i++){
-            if (layout[1][i].equals(layout[1][1])){
-                countBathroom++;
+            if (layout[1][i] != null && layout[1][1] != null && layout[1][i].equals(layout[1][1])){
+            countBathroom++;
             }
-            if (layout[2][i].equals(layout[2][1])){
-                countBedroom++;
+            if (layout[2][i] != null && layout[2][1] != null && layout[2][i].equals(layout[2][1])){
+            countBedroom++;
             }
-            if (layout[3][i].equals(layout[3][1])){
-                countLivingRoom++;
+            if (layout[3][i] != null && layout[3][1] != null && layout[3][i].equals(layout[3][1])){
+            countLivingRoom++;
             }
-            if (layout[4][i].equals(layout[4][1])){
-                countKitchen++;
+            if (layout[4][i] != null && layout[4][1] != null && layout[4][i].equals(layout[4][1])){
+            countKitchen++;
             }
         }
-        if (countBathroom == 0 || countBedroom == 0 || countLivingRoom > 0 || countKitchen > 0){
+        if (countBathroom == 0 || countBedroom == 0 ||
+            countLivingRoom > 0 || countKitchen > 0){
             return false;
         }
         return true;
@@ -412,17 +422,17 @@ public class roomDecor {
                     layout[4][3] = ALL_COLORS_PLUS_EMPTY[digits[6]];
                     layout[4][4] = ALL_COLORS_PLUS_EMPTY[digits[7]];
 
-                    if (count++ % 10000 == 0) {
-                        // System.out.println(count);
-                        // printLayout(layout);
-                    }
+                    /* if (count++ % 10000 == 0) {
+                        System.out.println(count);
+                        printLayout(layout);
+                    } */
 
                     if (testLayout(layout)) {
                         printLayout(layout);
                         return;
                     }
                 }
-                System.out.println("count at " + wallColors + " is " + count);
+                // System.out.println("count at " + wallColors + " is " + count);
             }
         }
     }
