@@ -234,18 +234,33 @@ public class roomDecor {
     public boolean condition13(String[][] layout){
         int countUpstairs = 0;
         int countDownstairs = 0;
-        for (int i = 1; i < 5; i++){
-            if (layout[1][i].equals("A")){
-                countUpstairs++;
-            }
-            if (layout[2][i].equals("A")){
-                countUpstairs++;
-            }
-            if (layout[3][i].equals("A")){
-                countDownstairs++;
-            }
-            if (layout[4][i].equals("A")){
-                countDownstairs++;
+        for (int i = 0; i < 4; i++){
+            if (i < 3){ // upstairs
+                if (layout[i][1].equals("R")){
+                    countUpstairs++;
+                }
+                if (layout[i][2].equals("G")){
+                    countUpstairs++;
+                }
+                if (layout[i][3].equals("B")){
+                    countUpstairs++;
+                }
+                if (layout[i][4].equals("Y")){
+                    countUpstairs++;
+                }
+            } else {    // downstairs
+                if (layout[i][1].equals("R")){
+                    countDownstairs++;
+                }
+                if (layout[i][2].equals("G")){
+                    countDownstairs++;
+                }
+                if (layout[i][3].equals("B")){
+                    countDownstairs++;
+                }
+                if (layout[i][4].equals("Y")){
+                    countDownstairs++;
+                }
             }
         }
         if (countDownstairs <= countUpstairs){
@@ -256,7 +271,43 @@ public class roomDecor {
     }
 
     // There must be more unusual objects than modern objects in the house.
-
+    public boolean condition14(String[][] layout){
+        int countUnusual = 0;
+        int countModern = 0;
+        for (int i = 1; i < 5; i++){
+            // count unusual objects
+            if (layout[i][1].equals("R")){
+                countUnusual++;
+            }
+            if (layout[i][2].equals("G")){
+                countUnusual++;
+            }
+            if (layout[i][3].equals("B")){
+                countUnusual++;
+            }
+            if (layout[i][4].equals("Y")){
+                countUnusual++;
+            }
+            // count modern objects
+            if (layout[i][1].equals("Y")){
+                countModern++;
+            }
+            if (layout[i][2].equals("R")){
+                countModern++;
+            }
+            if (layout[i][3].equals("G")){
+                countModern++;
+            }
+            if (layout[i][4].equals("B")){
+                countModern++;
+            }
+        }
+        if (countUnusual <= countModern){
+            return false;
+        }
+        System.out.println("Condition 14 passed");
+        return true;
+    }
 
 
 
