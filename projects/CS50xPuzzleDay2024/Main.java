@@ -1,6 +1,6 @@
 import java.util.HashMap;
 
-public class roomDecor {
+public class Main {
     public static void main(String[] args) {
         exhaustiveSearch();
     }
