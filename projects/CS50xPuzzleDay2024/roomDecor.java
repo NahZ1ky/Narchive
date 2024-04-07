@@ -192,26 +192,19 @@ public class roomDecor {
 
     // In the upstairs of the house, the wall color must match the color of at least one of the objects in the room. In the downstairs, the wall color must not match the color of any of the objects in the room.
     public static boolean condition10(String[][] layout){
-        int countBathroom = 0;
-        int countBedroom = 0;
-        int countLivingRoom = 0;
-        int countKitchen = 0;
-        for (int i = 1; i < 5; i++){
-            if (layout[1][i] != null && layout[1][i].equals(layout[1][1])){
-                countBathroom++;
+        int countUpstairs = 0;
+        int countDownstairs = 0;
+        for (int i = 2; i < 5; i++){
+            if (layout[1][i] != null && layout[1][i].equals(layout[1][1]) ||
+                layout[2][i] != null && layout[2][i].equals(layout[2][1])){
+                countUpstairs++;
             }
-            if (layout[2][i] != null && layout[2][i].equals(layout[2][1])){
-                countBedroom++;
-            }
-            if (layout[3][i] != null && layout[3][i].equals(layout[3][1])){
-                countLivingRoom++;
-            }
-            if (layout[4][i] != null && layout[4][i].equals(layout[4][1])){
-                countKitchen++;
+            if (layout[3][i] != null && layout[3][i].equals(layout[3][1]) ||
+                layout[4][i] != null && layout[4][i].equals(layout[4][1])){
+                countDownstairs++;
             }
         }
-        if (countBathroom == 0 || countBedroom == 0 ||
-            countLivingRoom > 0 || countKitchen > 0){
+        if (countUpstairs == 0 || countDownstairs > 0){
             return false;
         }
         return true;
