@@ -2,12 +2,12 @@
 #include <ctype.h>
 
 int main() {
-    char input;
+    char charInput;
     float temp;
     float convertedTemp;
 
-    char unit = scanf("\nunit: %c", &input);
-    char toUnit = scanf("\nto unit: %c", &input);
+    char unit = scanf("\nunit: %c", &charInput);
+    char toUnit = scanf("\nto unit: %c", &charInput);
     scanf("\nand the temperature is: %f", &temp);
     unit = toupper(unit);
 
