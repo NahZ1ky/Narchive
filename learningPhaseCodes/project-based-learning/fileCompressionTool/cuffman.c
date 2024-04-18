@@ -1,5 +1,5 @@
 #include <stdio.h>
 
-int main(char[] file){
-    
+int main(char *file){
+
 }
