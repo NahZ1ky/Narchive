@@ -1,7 +1,8 @@
 #include <stdio.h>
 
 int main(){
-    int score = scanf("score: %d", &score);
+    int score;
+    scanf("%d", &score);
 
     switch(score) {
         case 90 ... 100:
@@ -24,4 +25,6 @@ int main(){
             printf("Invalid input\n");
             break;
     }
+
+    return 0;
 }
