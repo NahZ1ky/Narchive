@@ -37,7 +37,7 @@ main(){
             longestString = currString;
         }
     }
-    printf("the longest line has " + longest + "numbers, and this is the content inside:\n")
+    printf("the longest line has %d numbers, and this is the content inside:\n", longest)
     printf(longestString)
     return 0;
 }
