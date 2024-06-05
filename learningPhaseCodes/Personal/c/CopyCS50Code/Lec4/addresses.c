@@ -14,4 +14,13 @@ int main(void) {
     printf("%p\n", &st[1]);
     printf("%p\n", &st[2]);
     printf("%p\n", &st[3]);
+
+    char* str = "BYE";
+    printf("%s\n", str);
+    printf("%p\n", str);
+    printf("%p\n", &str[0]);
+    printf("%p\n", &str[1]);
+    printf("%p\n", &str[2]);
+    printf("%p\n", &str[3]);
+    printf("%p\n", &str[4]);
 }
