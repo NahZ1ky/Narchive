@@ -9,6 +9,8 @@ int main(void) {
     printf("x is %i, y is %i\n", x, y);
     swap(x, y);
     printf("x is %i, y is %i\n", x, y);
+    swapEnhance(&x, &y);
+    printf("x is %i, y is %i\n", x, y);
 }
 
 // this block of code will occupy a block of memory on the stack memory
