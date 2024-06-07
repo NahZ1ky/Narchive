@@ -1,11 +1,13 @@
 #include <stdio.h>
-#include <string.h>
+#include <stdlib.h>
+
+#define MAX_NAME_LENGTH 100
 
 int main(void) {
     // variable declaration
-    char* humanName;
-    char* dogName;
-    char* rabbitName;
+    char* humanName = malloc(MAX_NAME_LENGTH * sizeof(char));
+    char* dogName = malloc(MAX_NAME_LENGTH * sizeof(char));
+    char* rabbitName = malloc(MAX_NAME_LENGTH * sizeof(char));
     int humanAge;
     int dogAge;
     int rabbitAge;
