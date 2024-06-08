@@ -12,6 +12,11 @@ int main(void) {
     int dogAge;
     int rabbitAge;
 
+    if (humanName == NULL || dogName == NULL || rabbitName == NULL) {
+        printf("Memory allocation failed\n");
+        return 1;
+    }
+
     printf("Please enter your name: ");
     scanf("%s", humanName);
 
