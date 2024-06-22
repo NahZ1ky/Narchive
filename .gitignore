@@ -21,3 +21,7 @@ codeDump/learningPhase/School/CCSF/CS_111B/
 # general excluded files:
 codeDump/learningPhase/Personal/c/wordCount.java
 >>>>>>> mycodes
+
+#ignore emacs backup files
+*#*#
+*~
