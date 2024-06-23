@@ -1,6 +1,6 @@
 #include <stdio.h>
-
-static char input[2048];
+#include <stdlib.h>
+#include <editline/readline.h>
 
 int main(int argc, char **argv) {
   // Print Version and Exit Information
@@ -8,12 +8,19 @@ int main(int argc, char **argv) {
   puts("Press Ctrl+c to Exit\n");
 
   while (1) {
+    /* version one
     fputs("Lispy> ", stdout); // prompt for user input
     fgets(input, 2048, stdin); // intake user input
 
-    printf("No, you are a %s", input); // echo user input out
-  }
+    printf("No, you are a %s\n", input); // echo user input
+    */
 
+    char* input = readline("lispy> "); // output prompt and get input in one line
+    add_history(input); // add input to history
+
+    printf("No you're a %s\n", input); // echo user input
+    free(input); // free retrieved input
+    
+  }
   return 0;
-  
 }
