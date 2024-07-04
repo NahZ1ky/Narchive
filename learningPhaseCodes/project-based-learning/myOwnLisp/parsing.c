@@ -1,9 +1,6 @@
-#include <stdio.h>
-#include <stdlib.h>
 #include "./mpc-0.9.0/mpc.h"
 
 #ifdef _WIN32 // use following if compiling on windows
-  #include <string.h>
 
   static char buffer[2048];
 
@@ -39,10 +36,9 @@ int main(int argc, char **argv) {
       lispy    : /^/ <operator> <expr>+ /$/ ;             \
     ",
     Number, Operator, Expr, Lispy);
-  mpc_cleanup(4, Number, Operator, Expr, Lispy);
 
   // Print Version and Exit Information
-  puts("Lispy Version 0.0.0.0.1");
+  puts("Lispy Version 0.0.0.0.2");
   puts("Press Ctrl+c to Exit\n");
 
   while (1) {
@@ -77,6 +73,7 @@ int main(int argc, char **argv) {
       mpc_err_print(r.error);
       mpc_err_delete(r.error);
     }
+    free(input);
   }
 
   /* Undefine and Delete our Parsers */
