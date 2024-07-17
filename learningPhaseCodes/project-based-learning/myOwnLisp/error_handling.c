@@ -46,7 +46,7 @@ lval lval_err(int x) {
   return v;
 }
 
-  
+
 
 int number_of_nodes(mpc_ast_t* t) {
   if (t -> children_num == 0)
@@ -61,12 +61,36 @@ int number_of_nodes(mpc_ast_t* t) {
   return 0;
 }
 
-long eval_op(long x, char* op, long y) {
-  if (strcmp(op, "+") == 0) { return x + y; }
-  if (strcmp(op, "-") == 0) { return x - y; }
-  if (strcmp(op, "*") == 0) { return x * y; }
-  if (strcmp(op, "/") == 0) { return x / y; }
-  return 0;
+// print an lval
+void lval_print(lval v) {
+  switch (v.type) {
+    // print out number directly if valid
+    case LVAL_NUM: printf("%li", v.num); break;
+
+    case LVAL_ERR:
+      if (v.err == LERR_DIV_ZERO) { printf("Error: Division By Zero"); }
+      if (v.err == LERR_BAD_NUM) { printf("Error: Invalid Number"); }
+      if (v.err == LERR_BAD_OP) { printf("Error: Invalid Operator"); }
+      break;
+  }
+}
+void lval_println(lval v) { lval_print(v); putchar('\n'); }
+
+long eval_op(lval x, char* op, lval y) {
+  // the if there is problem with the input number
+  if (x.type == LVAL_ERR) { return x.num; }
+  if (y.type == LVAL_ERR) { return y.num; }
+  
+  if (strcmp(op, "+") == 0) { return x.num + y.num; }
+  if (strcmp(op, "-") == 0) { return x.num - y.num; }
+  if (strcmp(op, "*") == 0) { return x.num * y.num; }
+  if (strcmp(op, "/") == 0) {
+    // return error if operand is zero
+    return y.num == 0
+      ? lval_err(LERR_DIV_ZERO)
+      : lval_num(x.num / y.num);
+  }
+  return lval_err(LERR_BAD_OP);
 }
 
 long eval(mpc_ast_t *t) {
