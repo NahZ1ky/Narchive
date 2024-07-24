@@ -1,7 +1,9 @@
 #include "./mpc-0.9.0/mpc.h"
+#include <errno.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <sys/_types/_null.h>
 
 #ifdef _WIN32 // use following if compiling on windows
 
@@ -76,14 +78,14 @@ void lval_print(lval v) {
 }
 void lval_println(lval v) { lval_print(v); putchar('\n'); }
 
-long eval_op(lval x, char* op, lval y) {
+lval eval_op(lval x, char* op, lval y) {
   // the if there is problem with the input number
-  if (x.type == LVAL_ERR) { return x.num; }
-  if (y.type == LVAL_ERR) { return y.num; }
+  if (x.type == LVAL_ERR) { return x; }
+  if (y.type == LVAL_ERR) { return y; }
   
-  if (strcmp(op, "+") == 0) { return x.num + y.num; }
-  if (strcmp(op, "-") == 0) { return x.num - y.num; }
-  if (strcmp(op, "*") == 0) { return x.num * y.num; }
+  if (strcmp(op, "+") == 0) { return lval_num(x.num + y.num); }
+  if (strcmp(op, "-") == 0) { return lval_num(x.num - y.num); }
+  if (strcmp(op, "*") == 0) { return lval_num(x.num * y.num); }
   if (strcmp(op, "/") == 0) {
     // return error if operand is zero
     return y.num == 0
@@ -93,20 +95,18 @@ long eval_op(lval x, char* op, lval y) {
   return lval_err(LERR_BAD_OP);
 }
 
-long eval(mpc_ast_t *t) {
+lval eval(mpc_ast_t *t) {
 
-  // If tagged as number return it directly
   if (strstr(t->tag, "number")) {
-    return atoi(t->contents);
+    // Check if there is any error in the conversion
+    errno = 0;
+    long x = strtol(t->contents, NULL, 10);
+    return errno != ERANGE ? lval_num(x) : lval_err(LERR_BAD_NUM);
   }
 
-  // The operator is always the second child
   char* op = t->children[1]->contents;
+  lval x = eval(t->children[2]);
 
-  // We store the third child as 'x'
-  long x = eval(t->children[2]);
-
-  // Iterate the remaining children and combining
   int i = 3;
   while (strstr(t->children[i]->tag, "expr")) {
     x = eval_op(x, op, eval(t->children[i]));
@@ -147,7 +147,7 @@ int main(int argc, char **argv) {
     mpc_result_t r;
     if (mpc_parse("<stdin>", input, Lispy, &r)) {
       // Print out result of the calculation
-      long result = eval(r.output);
+      lval result = eval(r.output);
       printf("%li\n", result);
       mpc_ast_delete(r.output);
     } else {
