@@ -1,0 +1,91 @@
+#+TITLE: [[https://www.youtube.com/watch?v=5zI9sG3pjVU][Turbulent Flow is MORE Awesome Than Laminar Flow]]
+#+DATEOFPUBLISH: Jun 11, 2020
+#+DATEWATCHED: <2024-11-30 Sat 22:37>
+
+* Content
+** Definition of Laminar Flow & Turbulent Flow
+*** Laminar flow
+- all the particle in fluid move organizedly parallel to each other in laminae.
+*** Turbulent Flow
+- there isn't really a universal defination for turbulent flow.
+- Derek made up characteristics of turbulent flow:
+  - [ ] unpredictable / chaotic
+  - [ ] Swirls on Many Scales
+  - [ ] Diffusive
+  - [ ] High Reynolds Number
+  - [ ] Dissipative
+** Turbulent flow's unpredictability
+- turbulent flow is unpredictable, there isn't really a way to predict turbulent flow's final state.
+- though, turbulent flow is not predictable, there is the [[https://en.wikipedia.org/wiki/Navier%E2%80%93Stokes_equations][Navier Strokes Equations]], which governs all fluid flow.
+  - side note: there is a million dollar bounty for anyone who can make progress in explaining why these equations work with terbulent flow.
+** Swirls
+- Eddies or Vortices are both name for the swirl you see from the turbulent flow, you can use both names interchangably.
+- The range of size of vortices is huge,
+  - it could be as small to be observed from micrometer scale with a fog machine and a lazer sheet,
+  - it could also be as huge as the Jupiter's huge red spot, which is bigger than the Earth in diameter,
+  - above are just two examples, the eddies could be observed in much smaller scales as well as in larger scales.
+** [[https://en.wikipedia.org/wiki/Osborne_Reynolds#Fluid_mechanics][Osborne Reynold's Fluid Mechanics Experiment]]
+*** setup
+- a stream of dye is used in the middle of the flow to visualize the flow behavior.
+*** result
+- dye remain a steady stream, aka laminar flow in slow flow rate
+- with the gradual increse of the flow rate during the experiment, the dye start to osculate back and forth.
+  beyond a certain critical point, the dye becomes diffusive.
+  - this characteristics of turbulent flow makes does not just dye to be distributed thought out the fluid,
+    it also distribute heat and momentum.
+- transition form laminar to turbulent is not solely dependent on the flow rate, here are all the factors:
+  u: flow rate
+  L: pipe width
+  V: Viscosity
+  - Reynolds Number (dimensionless)
+    Re = (uL)/V
+    high Reynolds Number will result in turbulent flow.
+**** example of Reynolds Number using candle smoke
+- the smoke which candle creates has both laminar and turbulent flow,
+  where the lower part of the smoke flows is laminar.
+  the smoke accelerate as they rise, bring up the Reynolds Number by the flow rate,
+  causing the top part of the smoke to be turbulence.
+- Laminar flow only occurs when the Reynolds Number is low.
+  this is why larminar flows only seen in low speed, small size or viscous fluids.
+** Turbulent Flow is everywhere
+*** examples where turbulent can be found
+- blood pumping from your heart
+- air flown in and out of your lung
+- atmospher near the Earth surface, which resulting how the clouds behave
+  - turbulent flow is essential for the formation of rain drops
+** Dissipative
+- the fluid take in energy at the largest scale resulting the big eddies,
+  the eddies slowly "die out" but forming smaller eddies.
+  at the smallest eddie scale, the energy gets dissapated to the fluid as heat
+** Flat Surface and Fluid
+- the velocity at the surface while fluid flowing abover the surface is zero, due to friction and adhesion.
+- as the flow goes up, the flow gets affected less, beyond a certain point where it the velocity is completely unaffected, a *Freestream Velocity*.
+- the velocity creates a curve, where the region of velocity change is called a *Boundry Layer*, *Laminar Boundry Layer* in this case.
+- to achieve this, the surface is applying a force to the fluid and the fluid is applying a equal force back, what we called *Skin Friction*.
+** Airplane Wing Design
+- As people would assume, the design of the wing of the airplane should be minimizing the air resistance by making it smooth.
+  But unintuitively, when we actually look more closely to the wings, we see little notches all over the wings.
+- As it turns out, the shape of an airplane wing is indeed trying to reduce air resistance to the minimum,
+  but the same shape which reduce the air resistance, decresed the lift because the air is being pushed away by the front of the wing.
+  The notches on the wing are designed to be right before the air being push too far and create turbulence flows so the air can stick around the second half of the wing a bit more creating more life, potentially saving gas money.
+** Golf Ball's dinple
+- The same physics applies to why there are dinples on golf balls.
+- Yes, the golfers want there to be less drag on the ball due to air resistance,
+  but they also want the ball to have more lift to make it fly farther.
+- When a normal golf ball was still round with no dinples, golf proffesionals prefer using used balls when they're trying to hit hard.
+  They found that used golf balls give them better performance.
+- After times flies by, the dinples we have on golf balls right now are at the optimal shape, size, density for flying.
+** Dead Fish Swim Upstream
+
+
+* Vocab
+| VOCAB            | DEFINITION                                                |
+| Laminar          | Consisting of laminae                                     |
+| Lamina           | layer                                                     |
+| Osculate         | to touch closely                                          |
+| Viscosity        | The condition or property of being viscous                |
+| Viscous          | (fluid) sticky, thick texture (like honey)                |
+| Cumulus          | Dense cloud                                               |
+| Cumulonimbus     | Dense rain cloud                                          |
+| Rheoscopic fluid | a type of fluid which shows internal currents as it flows |
+| Dissipative      |                                                           |

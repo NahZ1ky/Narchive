@@ -1,0 +1,7 @@
+px	solid work with sets and random selection! great exception handling too
+xw	clean logic and good use of random.sample. just a small tweak on error handling
+p6	effective word check, and good function use. maybe improve error messages a bit
+eq	strong function structure and error handling. could tweak word length check for better efficiency
+3s	clean file handling and word filtering. a little polish on `sys.exit()` could help.
+9x	nice random selection and error handling! consider using sampling instead of popping
+9a	great structure and clear output. solid work on punctuation cleanup

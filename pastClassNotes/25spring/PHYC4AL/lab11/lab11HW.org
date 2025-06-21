@@ -1,0 +1,9 @@
+#+TITLE: Collisions in 2-Dimensions
+#+NAME: Xirong "Ziky" Zhang
+
+1. 
+2. Data:
+   | Puck | Mass | Velocity | Momentum | Kinetic Energy |     |
+   |------+------+----------+----------+----------------+-----|
+   |      |      |          |          | K_i            | K_f |
+   |      |      |          |          |                |     |

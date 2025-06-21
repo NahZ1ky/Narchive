@@ -1,0 +1,6 @@
+#+TITLE: Conservation of Mechanical Energy
+#+NAME: Xirong "Ziky" Zhang
+
+C: Results and Analysis
+   1. *The data graph is a lot more curvy then what i thought they would be, but from the bright side, they are all periodically decresing as the prediction*
+   2. *Fricion between the floor and the ball, and air and the ball, both transform into thermal energy*

@@ -1,0 +1,39 @@
+#+TITLE: Free Fall Worksheet
+#+NAME: Ziky Zhang
+
+Prediction:
+1.
+   *Graph of Position(y) vs. Time should looks somewhat like the function f(x) = -x^n, x>0, n>1. A power function.*
+2.
+   *Graph Velocity vs. Time should looks like the function f(x) = kx, x>0. A linear function.*
+
+Video Analysis:
+11.
+   Fit Equation: y = At^2 + Bt + C
+   A: -4.092E0
+   B: 7.487E-1
+   C: 4.419E-1
+
+   y = *-4.092E0 * t^2 + 7.487E-1 * t + 4.419E-1*
+12.
+   Fit Equation: vy = A*t+B
+   A: -9.134E0
+   B: 1.114E0
+
+   vy = *-9.134E0 * t + 1.114E0*
+
+Question:
+1. *The y-axis on the graph represents the y position, the x-axis represents the time in seconds. The position(y) vs. time graph matches my prediction vaguely, but my prediction was more steep than the result since my prediction was a power function but this is a parabola.*
+2. *Parabola, the function forms the closest graph with a little y position change at first but larger with time past.*
+3.                                  y - yₒ = Vₒt + ½gt²
+                         At² + Bt + C - yₒ = Vₒt + ½gt²
+   -4.092E0 * t² + 7.487E-1 * t + 4.419E-1 = ½gt² + 4.419E-1
+              -4.092E0 * t² + 7.487E-1 * t = ½gt²
+                      -8.184E0 * t + 5.487 = gt
+                       *-8.184E0 + 5.487/t = g* 
+4. *The y-axis on the graph represents the y velocity, the x-axis represents the time in seconds. The velocity(y) vs. time graph mathes my prediction exactly, since mine is a linear function so is the result.*
+5. *Linear, the function forms a straight line and that is what the graph looks like/should look like*
+6.                  V = Vₒ + gt
+               V - Vₒ = gt
+   -9.134E0 - 1.114E0 = gt
+           *-10.248/t = g*

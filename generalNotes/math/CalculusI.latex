@@ -1,0 +1,18 @@
+\documentclass{article}
+\usepackage{graphicx} % Required for inserting images
+
+\title{Calculus 1 - Full College Course Notes}
+\author{Ziky Zhang}
+\date{Summer 2024}
+
+\begin{document}
+\maketitle
+
+\section{Derivatives of Trig Functions}
+\begin{align}
+\sin'(x) &= cos(x)    & \csc'(x) &= -\tan(x)\cdot\csc(x) \\
+\cos'(x) &= -\sin(x)  & \sec'(x) &= \tan(x)\cdot\sec(x) \\
+\tan'(x) &= \sec^2(x) & \cot'(x) &= -\csc^2(x)
+\end{align}
+
+\end{document}

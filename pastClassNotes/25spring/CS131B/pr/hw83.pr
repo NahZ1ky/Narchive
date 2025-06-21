@@ -1,0 +1,7 @@
+ta	clean structure and solid logic, but it doesn't actually skip non-integers like the prompt says — it just crashes or prints an error. gotta filter out the bad inputs instead of stopping the program
+tc	this one gets the job done right — clean loop, filters non-integers like a pro. maybe could skip the “arguments that were integers” print, but overall solid
+tk 	logic mostly works, but printing the error message every time a non-integer shows up kinda goes against the “ignore” part of the prompt. also the indexerror part isn’t needed here. good effort though
+79	clean, simple, and hits the prompt perfectly. no extra fluff, just straight to the point. nicely done
+pq	nice and clear, does exactly what the prompt asks. comments are a bit much, but that’s just style. code works great
+ip	handles everything right and throws helpful errors. could add a print statement for the sum at the end though — that’s kinda the whole point.
+/users/abrick/pr/131B/2883/x9.py

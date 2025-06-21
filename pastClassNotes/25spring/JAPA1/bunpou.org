@@ -1,0 +1,65 @@
+* Verbs
+** Irregular Ferbs
+  - There are only two irregular verb する ＆ くる, and they both transform differently.
+  - Here are the transformations of these two verb with some tense and their negative form:
+| する              | Short Form | Long Form    |
+|------------------+------------+--------------|
+| Present positive | する        | します        |
+| Present negative | しない      | しません       |
+| Past positive    | した        | しました       |
+| Past negative    | しなかった   | しませんでした |
+|------------------+------------+--------------|
+|------------------+------------+--------------|
+| くる              | Short Form | Long Form    |
+|------------------+------------+--------------|
+| Present positive | くる        | きます        |
+| Present negative | きない      | きません       |
+| Past postive     | きた        | きました       |
+| Past negative    | きなかった   | きませんでした |
+  
+** Ru-verbs
+*** Identification
+  - Ru-verbs all ends in /e/ or /i/ with the suffix /ru/, so /eru/ or /iru/, no exceptions(for now, japanese is weird, there probably will be some exceptions while you learn further)
+    the verbs ends in /uru/ are normally not /Ru-verbs/
+*** Transformations
+  - The transformation from Short to Long form for Ru-verbs is
+    1. take the る away
+    2. add ます at the end
+  - Here are some examples:
+| Short Form | Long Form |
+|------------+-----------|
+| ねる        | ねます     |
+| みる        | みます     |
+| おきる      | おきます    |
+| たべる      | たべます    |
+
+** U-verbs
+*** Identification (yet to write)
+*** Transformations
+  - The transformation from Short to Long form for U-verbs is
+    1. take the ending "u" sound away
+    2. add "i" sound
+    3. add ます at the end
+  - Here are some examples:
+| Short Form | Long Form |
+|------------+-----------|
+| はなす      | はなします  |
+| のむ        | のみます    |
+| いく        | いきます    |
+| かえる      | かえります  |
+
+** Negative Form
+- For all verbs (that i know of) transform the same way, here are the steps
+  1. take off the ます
+  2. add a ません
+  Here are some examples:
+| Positive form | Negative form |
+| します         | しません        |
+| きます         | きません        |
+| ねます         | ねません        |
+| みます         | みません        |
+That's about enough, you get the point.
+
+* polite prefix for noun
+    ご + 中国起源名詞
+    お + 日本起源名詞

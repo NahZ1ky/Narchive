@@ -1,0 +1,70 @@
+#+TITLE: Oscillations
+#+NAME: Xirong "Ziky" Zhang
+A. Mass-Spring System:
+   1. Measure the Spring Constant, k
+      |------------+---------------+------------------|
+      |            | Position (m)  | Spring Force (N) |
+      |------------+---------------+------------------|
+      | 4 washers  | *.041 ± 3e-4* | *.14715*         |
+      | 8 washers  | *.043 ± 3e-4* | *.30411*         |
+      | 12 washers | *.057 ± 3e-4* | *.45126*         |
+      | 16 washers | *.070 ± 3e-4* | *.59841*         |
+      | 20 washers | *.082 ± 3e-4* | *.73575*         |
+      |------------+---------------+------------------|
+      Question 1: *13 N/m*
+      Question 2: *Yes, the graph appears as a upward linear function and obeys the hooke's law*
+
+   2. Measure the mass, M
+      Question 3: *.057kg*
+
+   3. Calculate the Theoretical Period, T_theoretical
+      *T = 2π * √(M/k)*
+      *T = 2π * √(.057kg / 13N)*
+      *T = .4161 s*
+
+      Question 4: *.4161 s*
+
+   4. Measure the Period, T_measured
+      |---------+----------------+---------------|
+      |         | 20 Periods (s) | 1 Periods (s) |
+      |---------+----------------+---------------|
+      | Trial 1 |           8.31 | *0.416*       |
+      | Trial 2 |           8.11 | *0.405*       |
+      | Trial 3 |           8.71 | *0.436*       |
+      | Trial 4 |           8.28 | *0.414*       |
+      | Trial 5 |           8.46 | *0.423*       |
+      | Average |           8.37 | *0.418*       |
+      |---------+----------------+---------------|
+      #+TBLFM: @7$2=vmean(@2$2..@6$2);%.2f::$3='(concat "*" (format "%.3f" (/ (string-to-number $2) 20.0)) "*")
+      Question 5: *0.4187 s*
+
+   5. Percent Error
+      Question 6: *.62%*
+      
+B. Simple Pendulum
+   1. Measure the Length, L
+      Question 7: *.516 m*
+      
+   2. Calculate the Theoretical Period, T_theoretical
+      *T = 2π √(L/g)*
+      *T = 2π √(.516m / 9.799 m/s²)*
+      *T = 1.44 s*
+
+      Question 8: *1.44 s*
+      
+   3. Measure the Period, T_measured
+      |---------+----------------+---------------|
+      |         | 20 Periods (s) | 1 Periods (s) |
+      |---------+----------------+---------------|
+      | Trial 1 |          29.17 | *1.459*       |
+      | Trial 2 |          28.28 | *1.414*       |
+      | Trial 3 |          28.38 | *1.419*       |
+      | Trial 4 |          28.78 | *1.439*       |
+      | Trial 5 |          29.12 | *1.456*       |
+      | Average |          28.75 | *1.438*       |
+      |---------+----------------+---------------|
+      #+TBLFM: @7$2=vmean(@2$2..@6$2);%.2f::$3='(concat "*" (format "%.3f" (/ (string-to-number $2) 20.0)) "*")
+      Question 9: *1.4373*
+
+   4. Percent Error
+      Question 10: *.32%*

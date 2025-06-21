@@ -35,14 +35,13 @@ int main(int argc, char const *argv[]){
     nt = 0;
     ns = 0;
 
-    while ((c = getchar()) != EOF)
-        if (c == '\n'){
-            ++nl;
-        }
-        if (c == '\t'){
-            ++nt;
-        }
-        if (c == ' '){
-            ++ns;
-        }
+    while ((c = getchar()) != EOF) {
+      if (c == '\n') { ++nl; }
+      else if (c == '\t') { ++nt; }
+      else if (c == ' ') { ++ns; }
+    }
+
+    printf("This file has %d lines, %d tabs, and %d spaces", nl + 1, nt, ns);
+
+    return 0;
 }

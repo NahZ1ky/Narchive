@@ -1,0 +1,41 @@
+#+TITLE: Friction Worksheet
+#+NAME: Xirong "Ziky" Zhang
+
+A. Coefficient of Kinetic Friction
+   What is the weight of your wood block? *.230kg*
+   What is the weight of 1 metal weight or 5 metal washers? *.375kg*
+
+Data Table 1: Kinetic Friction Force
+|--------------------------------------+-------------+----------------+----------------+----------------+------------------+-------+--------|
+|                                      | n (newtons) | f_k1 (newtons) | f_k2 (newtons) | f_k3 (newtons) | f_kavg (newtons) |   μ_k | μ_kavg |
+|--------------------------------------+-------------+----------------+----------------+----------------+------------------+-------+--------|
+| wood block                           |        2.37 |           0.30 |           0.28 |           0.31 |             0.30 | 0.127 |  0.219 |
+| wood block + 1 weight or 5 washers   |        4.62 |           0.81 |           0.83 |           0.82 |             0.82 | 0.177 |        |
+| wood block + 2 weights or 10 washers |        6.87 |           1.62 |           1.55 |           1.59 |             1.59 | 0.231 |        |
+| wood block + 3 weights or 15 washers |        9.13 |           2.32 |           2.28 |           2.31 |             2.30 | 0.252 |        |
+| wood block + 4 weights or 20 washers |       11.39 |           3.49 |           3.53 |           3.51 |             3.51 | 0.308 |        |
+|--------------------------------------+-------------+----------------+----------------+----------------+------------------+-------+--------|
+#+TBLFM: $6=vmean($3..$5);%.2f
+#+TBLFM: $7=$6/$2;%.3f::@2$8=vmean(@2$7..@6$7)
+   What is the coefficient of kinetic friction, μk, for your system? *.219*
+
+B. Coefficient of Kinetic Friction
+Data Table 2: Static Friction Force
+|--------------------------------------+-------------+----------------+----------------+----------------+------------------+-------+--------|
+|                                      | n (newtons) | f_s1 (newtons) | f_s2 (newtons) | f_s3 (newtons) | f_savg (newtons) |   μ_s | μ_sage |
+|--------------------------------------+-------------+----------------+----------------+----------------+------------------+-------+--------|
+| wood block                           |        2.37 |            .32 |            .36 |            .31 |             0.33 | 0.139 |  0.230 |
+| wood block + 1 weight or 5 washers   |        4.62 |            .91 |            .93 |            .98 |             0.94 | 0.203 |        |
+| wood block + 2 weights or 10 washers |        6.87 |           1.82 |           2.10 |           1.92 |             1.95 | 0.284 |        |
+| wood block + 3 weights or 15 washers |        9.13 |           2.40 |           2.42 |           2.38 |             2.40 | 0.263 |        |
+| wood block + 4 weights or 20 washers |       11.39 |           2.90 |           3.02 |           2.95 |             2.96 | 0.260 |        |
+|--------------------------------------+-------------+----------------+----------------+----------------+------------------+-------+--------|
+#+TBLFM: $6=vmean($3..$5);%.2f
+#+TBLFM: $7=$6/$2;%.3f::@2$8=vmean(@2$7..@6$7);%.3f
+   What is the coefficient of static friction, μk, for your system? *0.23*
+
+Questions:
+1. μ_s is larger since it is harder to get something moving than keep something moving.
+2. the table isn't completely flat, and since there isn't just one way the lab was done, the force are affected a bit. 
+3. a better surface would makes the result more accurate. 
+      
