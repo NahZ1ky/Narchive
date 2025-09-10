@@ -1,6 +1,6 @@
 #+TITLE: [[https://www.youtube.com/watch?v=5zI9sG3pjVU][Turbulent Flow is MORE Awesome Than Laminar Flow]]
-#+DATEOFPUBLISH: Jun 11, 2020
-#+DATEWATCHED: <2024-11-30 Sat 22:37>
+#+VIDEOPUBLISHED: Jun 11, 2020
+#+VIDEOWATCHED: <2024-11-30 Sat>
 
 * Content
 ** Definition of Laminar Flow & Turbulent Flow

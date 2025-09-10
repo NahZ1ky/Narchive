@@ -1,0 +1,29 @@
+<<<<<<< HEAD
+# exclude all files in .vscode/
+/.vscode/
+
+# exclude all compiled files
+*.class
+*.o
+*.out
+
+# exclude .DS_Store
+.DS_Store
+
+# excluded directory
+codeDump/learningPhase/School/CCSF/CS_111B/
+.vscode/
+
+# excluded keyword:
+*test.*
+*.test
+
+# general excluded files:
+codeDump/learningPhase/Personal/c/wordCount.java
+>>>>>>> mycodes
+
+#ignore emacs backup files
+*#*#
+*~
+.#*
+pastClassNotes/25spring/JAPA1/初級日本語 げんき １ (坂野永理, 池田庸子, 大野裕, 品川恭子, 渡嘉敷恭子) (Z-Library).pdf

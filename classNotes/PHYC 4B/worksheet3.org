@@ -1,0 +1,31 @@
+#+TITLE: Worksheet #3
+#+AUTHOR: Ziky Zhang
+#+OPTIONS: tex:t toc:nil
+#+STARTUP: latexpreview
+#+LATEX_HEADER: \setlength{\abovedisplayskip}{0pt}
+#+LATEX_HEADER: \setlength{\belowdisplayskip}{0pt}
+#+LATEX_HEADER: \usepackage[a4paper, margin=1in]{geometry}
+
+1. A particle of charge \( -2.0 \mu C\) and mass \( 0.53g \) is launched towards an infinite plane of uniform surface charge density, and moves along the straight line path indicated. Gravity cannot be neglected.
+Charge \( q \) launched towards plane with an initial velocity of \( 3.0 m/s \) \( 25^{\circ} \) below horizontal
+[[./img/3.1.jpg]]
+   1. Calculate the magnitude of the electric field due to the plane of charge.
+   2. Suppose the particle passes through a small hole in the plane of charge (i.e., the particle does not collide with the plane, but passes straight through it).  Sketch the path of the particle after it passes through the hole.
+   3. How far away from the plane of charge is the particle \( 2.0s \) after it passes through the hole?
+2. Calculate \( \oint \vec{E} \cdot d \vec{A} \) for each surface indicated in the diagram below.
+Five different surfaces surrounding different charges.
+[[./img/3.2.jpg]]
+
+
+\newpage
+\begin{align*}
+1.(a)\ E &= \frac{\sigma}{2 \epsilon_{0}} \\
+         &= \frac{\sigma}{2 \cdot 8.85 \times 10^{-12} \ C^2/N \cdot m^2} \\
+         &= \frac{\sigma}{1.77 \times 10^{-11}  \ C^2/N \cdot m^2} \\
+\end{align*}
+
+
+\begin{align*}
+1.(b) \\
+
+\end{align*}

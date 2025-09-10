@@ -1,0 +1,90 @@
+#+TITLE: Worksheet #1
+#+AUTHOR: Ziky Zhang
+#+OPTIONS: tex:t toc:nil
+#+STARTUP: latexpreview
+#+LATEX_HEADER: \setlength{\abovedisplayskip}{0pt}
+#+LATEX_HEADER: \setlength{\belowdisplayskip}{0pt}
+
+\newpage
+1. The following charges exist (given coordinates are $(x, y)$ coordinates in the plane of the page): a $- 3.0 \mu C$ point charge located at $(0, 0)$, a $- 2.0 \mu C$ uniform spherical shell of charge of radius 3.0cm centered at $(+4.0cm, 0)$, a $+2.0 \mu C$ uniform spherical shell of charge of radius 2.0cm centered at $(0, -4.0cm)$, a $+4.0 \mu C$ uniform spherical shell of charge of radius 4.0cm centered at $(-1.0cm, +1.0cm)$.
+   1. Calculate the net electric force (magnitude and direction) acting on the $-3.0 \mu C$ point charge.
+   2. Suppose you were given a $+1.0 \mu C$ charge to add to the arrangement of charges above. Your goal is to place the charge so that the net force on the $- 3.0 \mu C$ charge is zero. Where would you put the $+1.0 \mu C$ charge?  Be specific.
+   3. The $-3.0 \mu C$ point charge was created by either adding or removing electrons from a neutral object. Were electrons added or removed? How many electrons were added or removed?
+2. Calculate the charge of a $4.0g$ sample of Zinc (atomic number $30$, atomic mass $65.37g/mole$, density $7.133g/cm^3$) from which one electron out of every $10^{11}$ electrons has been removed.
+\newpage
+
+\begin{align*}
+1. \ 
+\text{Variables: }
+  q = -&3.0 \text{ at } (0,0) \\
+q_1 = -&2.0 \text{ at } (4,0) \\
+q_2 = +&2.0 \text{ at } (0,-4) \\
+q_3 = +&4.0 \text{ at } (-1,1) \\
+       (&\mu C) \quad (cm)
+\end{align*}
+
+\begin{align*}
+\text{Vectors: }
+  \hat{r_1} &= (-1 \times 10^{-2})m \ \hat{\imath} \\
+  \hat{r_2} &= (-1 \times 10^{-2})m \ \hat{\jmath}
+\end{align*}
+
+\begin{align*}
+1.(a) \ 
+\overrightarrow{F_{q_{0}}} &= \Sigma \overrightarrow{F_{qq_n}} \\
+                     &= \overrightarrow{F_{qq_1}} + \overrightarrow{F_{qq_2}} + 0 \\
+                     &= k_e \frac{qq_1}{r_1^2} ( \hat{r_{1}} ) + k_e \frac{qq_2}{r_2^2} ( \hat{r_{2}} ) \\
+                     &= k_e q ( \frac{q_1}{r_1^2} \hat{r_{1}} + \frac{q_2}{r_2^2} \hat{r_{2}} ) \\
+                     &= 8.99 \times 10^{9} N \frac{m^{2}}{C^{2}} \cdot -3.0 \times 10^{-6} C ( \frac{ -2.0 \times 10^{-6} C }{ .04 m^{2}} \hat{r_{1}} - \frac{ 2.0 \times 10^{-6} C }{ .04 m^{2}} \hat{r_{2}} ) ) \\
+                     &= 8.99 \times 10^{9} N \frac{m^{2}}{C^{2}} ( \frac{6.0 \times 10^{-12} C^{2}}{1.6 \times 10^{-3} m^{2}} \hat{r_{1}} + \frac{6.0 \times 10^{-12} C^{2}}{1.6 \times 10^{-3} m^{2}} \hat{r_{2}} ) \\
+                     &= 8.99 \times 10^{9} N \frac{m^{2}}{C^{2}} ( 3.75 \times 10^{-9} \frac{C^{2}}{m^{2}} \hat{r_{1}} + 3.75 \times 10^{-9} \frac{C^{2}}{m^{2}} \hat{r_{2}}) \\
+                     &= (-33.71 \hat{\imath}, -33.71\hat{\jmath}) N = 47.67 N \text{ at } 225^{\circ}
+\end{align*}
+
+\begin{align*}
+1.(b) \ 
+F_{q} = 0 &= \Sigma F_{qq_{n}} \\
+          &= \overrightarrow{F_{qq_{1}}} + \overrightarrow{F_{qq_{2}}} + 0 + \overrightarrow{F_{qq_{4}}} \\
+          &= k_{e} \frac{|qq_{1}|}{r_{1}^{2}} \hat{r_{1}} + k_{e} \frac{|qq_{2}|}{r_{2}^{2}} \hat{r_{2}} + k_{e} \frac{|qq_{4}|}{r_{4}^{2}} \hat{r_{4}} \\
+\end{align*}
+\begin{align*}
+\text{vector: }
+- \hat{r_{4}} &= \hat{r_{1}} + \hat{r_{2}} \\
+\hat{r_{4}} &= - \hat{r_{1}} - \hat{r_{2}} \\
+\hat{r_{4}} &= 1 ( \hat{\imath}, \hat{\jmath} ) \\
+\end{align*}
+\begin{align*}
+\text{magnitude: }
+k_{e} \frac{|qq_{4}|}{r_{4}^{2}} &= k_{e} \frac{|qq_{1}|}{r_{1}^{2}} + k_{e} \frac{|qq_{2}|}{r_{2}^{2}} \\
+k_{e} \frac{|qq_{4}|}{r_{4}^{2}} &= F_{q_{0}} \\
+k_{e} \frac{|qq_{4}|}{F_{q_{0}}} &= r_{4}^{2} \\
+r_{4} &= \sqrt{ k_{e} \frac{|qq_{4}|}{F_{q_{0}}} } \\
+r_{4} &= \sqrt{ 8.99 \times 10^{9}N \frac{C^{2}}{m^{2}} \frac{|-3.0 \times 10^{-6} C \cdot 1.0 \times 10^{-6} C|}{47.67N} } \\
+r_{4} &= .02378 m \approx 2.38 cm \\
+q_{4} &= +1.0 \mu C \text{ at } (1.68, 1.68) \ cm
+\end{align*}
+
+\begin{align*}
+1.(c) \ 
+\text{$3.0 \mu C$ of electron were added}, 
+n &= \frac{q}{-e} \\
+n &\approx 1.87 \times 10^{13} e^{-}
+\end{align*}
+
+
+\newpage
+\begin{align*}
+2. 
+\text{Variables: }
+m &= 4g \\
+Z &= 30 \\
+A &= 65.37 \frac{g}{mole} \\
+\rho &= 7.133 \frac{g}{cm^{3}} \\
+mol^{-1} &= 6.02 \times 10^{23} \frac{atom}{mole}
+\end{align*}
+\begin{align*}
+q_{e, removed} &= m \cdot mol^{-1}Ze^{-} \frac{1}{A \cdot 10^{11}} \\
+&= -1.7704 \times 10^{-6} C \\ \\
+q &= 0 - -1.7704 \times 10^{-6} C \\
+&= 1.7704 \times 10^{-6} C
+\end{align*}

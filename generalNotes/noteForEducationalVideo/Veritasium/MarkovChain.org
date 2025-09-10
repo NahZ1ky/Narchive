@@ -1,0 +1,125 @@
+#+TITLE: [[https://youtu.be/KZeIEiBrT_w?si=As8M6tuEuVX0QN9K][The Strange Math That Predicts (Almost) Anything]]
+#+VIDEOPUBLISHED: Jul 25, 2025
+#+VIDEOWATCHED: <2025-07-29 Tue>
+* Content
+** M
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* Draft
+** The Creation of Markov Chain
+history of russian between tsar and communist.
+tsar side mathematician - Nekrasov
+communist sid mathematician - Markov
+
+Nekrasov's idea:
+- independent follows the Law of Large Numbers
+  example
+  - fair coin flips will result in 50-50 chance after a large numbers of toss
+- if something follows the Law of Large Numbers it must be independent
+  example
+  - birth rate, marriage rate, crime rate all follows the Law of Large number
+    then it must conclude that the decision were made independently, therefore, the people must done these things under free will
+
+Markov's counter idea:
+- Law of Large Numbers doesn't neccesarily means indepence
+  he used a Eugene Onegin (a russian poem) and took out the first 20k words, string them in to one line of letters, no punchuation (a dependent system).
+  when the letters are being counted in pairs, there are four posible combinations: Vowel Vowel, Vowel Consonant, Consonant Vowel, and finally, Consonant Consonant.
+  he hand counted the appearance of the letters and gaved 43% being vowel and 57% being consonant.
+  to find the possibility of each pair combination when we assume the case is independent is just the possibility of the letter multiply by the other one, say vowel followed by a consonant, will be 43% * 57% = 25%. but after hand counting the appearance of the pair, he found them very far from the expected outcome. but when he turns back and make the calculation for each possible pair (the state of the second letter is dependent on the first) with the ratio of the possibility to get a certain pair with the first letter (VV 6%, CC 19%, VC 37.5%, CV 37.5%) the possibility of choosing the first letter and it's a vowel or consonant (43% or 57%).
+  with those probablility, he made a machine that determains the state of the next letter in line with the dependent possibility which he calculated (later know as the Markov Chain), the result of the ratio between the amount of vowels and consonants, after a large number of string, gives out exactly 43% and 57%
+  which proofs that, a data that obeys the Law of Large Numbers does not neccesarily need to be independent.
+** Nuclear Bomb
+Since the Uranium-235 is incredibly expensive and hard to get, even after the Manhattan Project, a team of scientist including Stanislaw Ulam continues to study how nuclear bombs behave.
+
+Stanislaw was unfortunate had brain damage and must stay in the hospital for a period of time, which he uses the card game solitaire to pass time with. A question arises while he was playing the game: how many shullfes does it need to make sure the deck is fully shuffled? That hit his head with a inspiration about how the reaction of the necleus in the neclear bombs could possibily behave.
+
+Coming back to work, he start working on a method to calculate how much of uranium is needed to build a bomb. He uses the Markov Chain simulate the chain reaction of neutrons in the neclear bomb. So there are three possible state of a neutron in a bomb, either traveling, leave or absorbed, or hit a uranium and splits a few more neutrons out and start the next step of the reaction.
+But the catch is, the possibility of each state of neutron might be in the next step are dependent to their location, velocity, and energy level, which we can't just find out of nowhere. they made use of the world's first electronic calculator, with arbitrary possibility of each state in one scenario and simulate the chain reaction with the Markov Chain.
+
+calculation looks like this:
+
+Multiplication Factor of each step (k_s):
+number of stray neutron after the fussion / number of active neutron
+
+Multiplication Factor of a simulation (k):
+sum of k_s / number of step
+
+Run the simulation for a large number of times, the distribution of where k lands tells the scientists if it's a bomb or no.
+If the k lands between 0 and 1, that means the neuclear fussion eventually dies down; 1+ means the fussion factor is great enough to be a bomb; at 1 just means it's a self sustaining system. 
+There, a system of find if a bomb has enough energy to explode with statistic instead of hand calculation has been found.
+
+This method is named after Monte Carlo, the famous Casino in Monaco which Ulam's uncle visits often.
+** Search Engine
+Google was founded by two Standford PhD students, Larry Page and Sergey Brin, to solve the critical problem the first/previous search engine, Yahoo had: ranking and present pages by relevance.
+
+The old method used by Yahoo is grab the keywords and count how often those keyword were mentioned on each site, and rank them by that. Which sounds fine, but it's actually every easy to exploid: have a large string of text with the keywords you want to be directed to your website and hide them with the style(s) of your choice. Boom, your website is on the top of the search result per relevance to the keyword of your choice.
+
+Google's approach, is using Markov Chain. The redirectional link between sites, are the dependent possibilities of being on a site and heading to one of the others. There are also piece of internet that isn't neccesarily linked to the main thread, in that case, there will be a mechinism of randomly redirecting the link to a node on the thread. After running a large numbers of simulation, taking account of the numbers of time landing on one site over all of the steps gives the ranking of that site with the keyword. This system was able to put the site with better quality on top instead of relevance.
+** Predictive Input
+Going back to the original Markov Chain about the letters, Claude Shannon instead of running simulation about vowels and consonants, he did it with the actual character sets instead. When the prediction of the next character is made by the looking at the previous, the result looks, quite bad. But with more and more characters being add to the prediction process, eventually using the whole word as the hint for the next character, the results look way better, at least some of the connections between words are very much finer than what he gets from with just one or two letter prediction. Further, he tried using the same technique but with more words as prediction factor and using the context of the text to make more precise predictions. That is how input prediction was made.
+** Conclusion
+Markov Chain gave us a solution to predict dependent events that follows the Law of Large Numbers with a very tight margin of error.
