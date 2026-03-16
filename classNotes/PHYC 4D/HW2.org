@@ -1,0 +1,43 @@
+#+TITLE: Homework #2
+#+AUTHOR: Ziky Zhang
+#+OPTIONS: tex:t toc:nil
+#+STARTUP: latexpreview
+#+LATEX_HEADER: \setlength{\abovedisplayskip}{0pt}
+#+LATEX_HEADER: \setlength{\belowdisplayskip}{0pt}
+#+LATEX_HEADER: \usepackage[a4paper, margin=1in]{geometry}
+#+LATEX_HEADER: \usepackage{hyperref}
+\begin{minipage}[t]{.48\textwidth}
+Questions: \\
+1. Energy of the photon must be greater than the metal's work function \( \Phi \) to be abnle to hits an electron out form the metal, and the energy of the photon is based onn \( E = hf = h \frac{c}{\lambda} \). \( f_0 \) and \( \lambda_{0} \) are the threeshold value. \\
+2. \begin{align*}
+(KE)_\mathrm{max} &= E - \Phi \\
+    &= \frac{hc}{\lambda} - \Phi
+\end{align*}
+3. \begin{align*}
+\Phi &= h \frac{c}{\lambda} \\
+  &= \frac{1240 \mathrm{eV \ nm}}{400 \mathrm{nm}} \\
+  &= 3.1 \mathrm{eV}
+\end{align*}
+4. No, longer wavelength result in smaller energy. \\
+6. Because electron doesn't orbit nucleus at all readius, only at \( a_{0} \), the Bohr Radius. \\
+7. \begin{align*}
+E_2 - E_1 &= hf \\
+f &= \frac{E_2 - E_1}{h}
+\end{align*}
+8. \[ E_n = -13.6 \frac{\mathrm{eV}}{n^2} \] \\
+11.
+\begin{align*}
+E_4 &= -13.6 \mathrm{eV} \cdot \frac{1}{16} \\
+  &= -0.85 \mathrm{eV}
+\end{align*}
+12.
+\begin{align*}
+E_5 &= -13.6 \mathrm{eV} \cdot \frac{1}{25} \\
+  &= -0.544 \mathrm{eV}
+\end{align*}
+15. A particle model, the Billard Ball Model. \\
+16. \[ n\lambda = 2d \sin{\theta} \]
+\end{minipage}
+\begin{minipage}[t]{.48\textwidth}
+
+\end{minipage}

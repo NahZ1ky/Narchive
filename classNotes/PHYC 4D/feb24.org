@@ -1,0 +1,37 @@
+#+TITLE: Feb 24th Class Notes
+#+AUTHOR: Ziky Zhang
+#+OPTIONS: tex:t toc:nil
+#+STARTUP: latexpreview
+#+LATEX_HEADER: \setlength{\abovedisplayskip}{0pt}
+#+LATEX_HEADER: \setlength{\belowdisplayskip}{0pt}
+#+LATEX_HEADER: \usepackage[a4paper, margin=1in]{geometry}
+#+LATEX_HEADER: \usepackage{amsmath}
+
+* Zeeman effect
+- experimental confirmation for "space quantization"
+  - Angular momentum is quantized
+  - Data is in the form of emission spectrum (\(n = 2 \rightarrow 1 \)) (refer to [[https://en.wikipedia.org/wiki/Energy_level_splitting][this wiki page]])
+  - Experiment: Between a north and south magnet place a glass tube containing hydrogen atoms, the glass tube has electro on both ends. When electron flow through the electro, the hydrogen start glowing.
+- Energy of swirlin atom (\( \vec{L} \)) in \( \vec{B} \)
+  \(u =  - \vec{\mu_{L}} \cdot \vec{B} \)
+  let's set \(\vec{B} = B \hat k\)
+  \(u = -\mu_{L_z} B \)
+  \(\mu_{L_z} = - \frac{e}{2m} L_z \)
+  \(\vec{\mu_{L}} = - \frac{e}{2m} \vec{L} \)
+
+  while
+\begin{align*}
+L_z = \hbar m_l \rightarrow u &= (\frac{e \hbar}{2m}m_lB) \\
+&= \mu_B m_l B \quad \mu \approx 9.2 \times 10^{-24} \mathrm{J/T}
+\end{align*}
+    
+
+* Energy level splitting
+\(\Delta m_l < 2\text{ and }\Delta l == 1\)
+
+* Spin & Stern Gerlach (SG) Experiment (refer to [[https://en.wikipedia.org/wiki/Stern%E2%80%93Gerlach_experiment][this wiki page]])
+for any \( l \), the number of possible \( m_{l} \) is always odd. the positive and negative all possible \( l \) value and \( m_l = 0\)
+this implies that the electron will only have an odd number of possible dipole direction.
+
+the experiment carries on to test the possible \( m_l \) level of a lot of atoms from different elecments. every element behaves as prediction, but sliver, which had 2 \( \) .
+it was later assign that the angular momentum sliver atoms have are half integers, \( l = \pm \frac{1}{2}\)

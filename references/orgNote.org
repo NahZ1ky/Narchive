@@ -1,0 +1,199 @@
+#+TITLE: orgnote
+#+AUTHOR: ZKZ
+#+DESCRIPTION: Rainer König Org mode video practice & note
+
+
+* Headlines
+** Change visibgility of headline
+- Cycling through local visibility `tab`
+- Cycling through global visibility `S-tab`
+
+ 
+** Headline level and position
+1. Point at headline you want to make adjustment with
+2. - Increase/decrease level with `M-L`/`M-R`
+   - Move up/down at same level with `M-U`/`M-D`
+     
+** Move headline with keyword
+1. Press `C-c` to the headline you want to adjsut
+2. Press `C-w`, type out the headline you want your current one to move below of
+   - try it with the headline below:
+
+*** Practice: move me below "headline level and position" and move back
+
+command reminder: `C-c C-w (keyword)`
+
+* Schedule
+** Todo-lists
+Headlines can be transform into todo-list/item by giving a "todo tag"
+*** Keywords
+There's only two default keyword for todo: TODO & DONE
+**** Add more keyword
+write down the command below IN FILE
+#+SEQ_TODO: STATE1(shortcut1)  STATE2(shortcut2)  |  STATE3(shortcut3)
+
+**** Commands
+- Get menu of all keywords `C-c C-t`
+- select state `C-c C-t (shortcut)`
+
+*** Status
+1. Cycling through status by pointing the headline
+2. `S-L`&`S-R`
+   
+** Check list
+Check list can be active by typing "- [ ] "
+Use `M-S-return` to generate a new check list below last
+
+*** State
+Checking off a check list is simply placing an "X" in between the braket
+There is also a command for that: `C-c C-c`
+
+*** Type
+Check list could be in multiple forms
+Use `S-(arrow)` to change the type of a check list
+
+*** Practice
+1. Make a grocery list with three items below(type out the first one and generate the rest), 
+2. Change the type into "* [ ]"
+   
+** Agenda view
+Open agenda menu via `C-c a`
+
+*** a: Scheduled tasks
+**** Navigate the List Through
+f as forward
+b as backward
+p as previous
+n as next
+**** Commands
+`S-f` to find task in file
+`S-l` to view imeline for current buffer
+
+*** t: TODO items
+`t` list all TODO entries
+`S-t` TODO with special keywords
+
+*** m: Match
+`m` find tags/properties/TODO keyword
+`S-m` find only TODO entries with tags/properties.TODO keywords
+
+*** s: Search
+`s` Search for keywords
+
+*** Scheduling a time
+    1. Point at item you want to schedule
+    2. - schedule `C-c C-s`
+       - deadline `C-c C-d`
+	 
+** Repeating tasks
+*** Keywords
+d = days   w = weeks   m = month   y = year
+
++1w Task will appear again in one week
+++1w Task will appear every week
+.+1m Task will appear again in a month AFTER the task is marked "done"
+
+*** Usage
+Simply put the keyword right behind the scheduled time like below:
+`<2023-11-25 Sa repeat>`
+
+* Tags
+** Add Keywords
+write down the command below IN FILE
+#+TAGS: TAG1(shortcut4) TAG2(shortcut5)
+
+** Assign Tag
+`C-c C-q` to assign tag to a headline
+
+Tags will pass down the the children headline and appears when assigning the children a tag as "Inherited" tag
+But still be able to assign new tags as "Current" tags
+
+* Drawer
+Drawer does not affect by nor global & local"tab" to open headlines
+it only opens to tab when sursor is on it
+** Strecture
+You need two parts to make a drawer usable:
+a Header and an end
+
+Header is the shown name(CAPTION NEEDED) of the drawer surrounded by colons
+and an end is place right below the last piece of content in the drawer
+Example:
+:DRAWER:
+there is nothing inside of this drawer
+:END:
+
+** Logbook
+Logbook will allow quick access to the local logbook by keybinds
+And it comes with a time stamp
+Activate the note taking buffer by `C-c C-z`
+Here is a example and the local logbook
+:LOGBOOK:
+- Note taken on [2023-12-01 Fri 16:19] \\
+  testing, attention please
+:END:
+
+* Timer
+Timer will be appears at the bottom right of the buffer
+A banner notification will be shown when the countdown timer goes off on the top right corner
+** Commands
+Countdown Timer        `C-c C-x ;`
+Countup Timer          `C-c C-x 0`
+      with offset      `C-u C-c C-x 0`
+Pause & Resume         `C-c C-x ,`
+Cancel Current Timer   `C-u C-c C-x ,`
+Insert Time Stamp:
+      Simple form      `C-c C-x .`
+      Description      `C-c C-x -`
+
+* Ordered tasks
+** Activation
+1. Toggle a headline with :ORDERED: tag with `C-c C-x O`
+2. The headline automaticlly create a property with a ORDERED Value:t in it
+3. Give todo value to the headlines below
+4. Give headlines scheduled value
+5. Enjoy your ordered task!
+
+** Feature
+(Essential Customization has already been done)
+- Task can only be done one by one in time sequence
+- Tasks that can not be done shown dimmed in agenda view
+- Works for check box too!
+  
+** Example                                                                   :ORDERED:
+:PROPERTIES:
+:ORDERED:  t
+:END:
+*** STATE2 thing 1
+*** STATE2 thing 2
+*** STATE2 thing 3
+
+
+* Test 
+
+** This is an entry
+- this is an item
+- another item
+
+- [ ] check item
+
+table-line:
+
+| header 1 | header 2         |
+|----------+------------------|
+| 1        | 2                |
+| this is  | a new table-line |
+
+plain:
+
+plain text "asdfasdfasdfgasdg"
+
+** STATE3 task item: <your input>
+DEADLINE: <2023-12-24 Sun>
+SCHEDULED: <2023-12-24 Sun>
+
+
+=C-c C-s= (schedule)
+=C-c C-d= (deadline)
+
+manually edit the body
+

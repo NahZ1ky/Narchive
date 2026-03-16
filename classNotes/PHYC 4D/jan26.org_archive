@@ -1,0 +1,39 @@
+#    -*- mode: org -*-
+
+
+Archived entries from file /Users/ziky/Documents/Narchive/classNotes/PHYC 4D/jan26.org
+
+
+* Wave model of light
+:PROPERTIES:
+:ARCHIVE_TIME: 2026-01-26 Mon 12:18
+:ARCHIVE_FILE: ~/Documents/Narchive/classNotes/PHYC 4D/jan26.org
+:ARCHIVE_OLPATH: Photo Electric Effect
+:ARCHIVE_CATEGORY: jan26
+:END:
+\(I_{intensity} = \frac{power}{area} = \frac{1}{2 \mu_0 c} |\overrightarrow{E_{0}}|^2 \)
+\begin{align*}
+\text{With }I_{intensity} &= 100 \frac{W}{m^2} \text{ light source, how much time does it take to diliver } 10\mathrm{eV} \text{ of energy to an area of } (0.1\mathrm{nm})^2 \\
+I_{intensity} &= \frac{P}{A} = \frac{E}{t \cdot A} \\
+t &= \frac{E}{I_{intensity} \cdot A} \\ \\
+I_{intensity} &= 100 \frac{\mathrm{J}}{\mathrm{sm}^2} \\
+t &= \frac{1.6 \times 10^{-19}\mathrm{sm}^2}{100 \mathrm{eV}} \cdot \frac{10 \mathrm{eV}}{(10^{-10} \mathrm{m})^2} \\
+t &= 1.6 s
+\end{align*}
+
+* Wave model of light
+:PROPERTIES:
+:ARCHIVE_TIME: 2026-01-26 Mon 12:19
+:ARCHIVE_FILE: ~/Documents/Narchive/classNotes/PHYC 4D/jan26.org
+:ARCHIVE_OLPATH: Photo Electric Effect
+:ARCHIVE_CATEGORY: jan26
+:END:
+\(I_{intensity} = \frac{power}{area} = \frac{1}{2 \mu_0 c} |\overrightarrow{E_{0}}|^2 \)
+\begin{align*}
+\text{With }I_{intensity} &= 100 \frac{W}{m^2} \text{ light source, how much time does it take to diliver } 10\mathrm{eV} \text{ of energy to an area of } (0.1\mathrm{nm})^2 \\
+I_{intensity} &= \frac{P}{A} = \frac{E}{t \cdot A} \\
+t &= \frac{E}{I_{intensity} \cdot A} \\ \\
+I_{intensity} &= 100 \frac{\mathrm{J}}{\mathrm{sm}^2} \\
+t &= \frac{1.6 \times 10^{-19}\mathrm{sm}^2}{100 \mathrm{eV}} \cdot \frac{10 \mathrm{eV}}{(10^{-10} \mathrm{m})^2} \\
+t &= 1.6 s
+\end{align*}

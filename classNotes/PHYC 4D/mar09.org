@@ -1,0 +1,58 @@
+#+TITLE: Mar 9th Class Notes
+#+AUTHOR: Ziky Zhang
+#+OPTIONS: tex:t toc:nil
+#+STARTUP: latexpreview
+#+LATEX_HEADER: \setlength{\abovedisplayskip}{0pt}
+#+LATEX_HEADER: \setlength{\belowdisplayskip}{0pt}
+#+LATEX_HEADER: \usepackage[a4paper, margin=1in]{geometry}
+#+LATEX_HEADER: \usepackage{amsmath}
+* Multi-electron atoms
+** Semi-classical
+*** Zeeman Effect
+Put an atom into external magnetic field
+lavel e=splitting -> specturm is more interesting
+evidence of quantization of \(\vec{L}\)
+
+
+\(\hat{H} = - \frac{\hbar}{2m} \nabla^2 - \frac{1}{4 \pi \epsilon} \frac{Ze^2}{r} + U(\vec{r}, \vec{B})\)
+getting \(\psi_{(?)}\) is difficault / impossible to solve analytically.
+
+*** Two electrons
+A system of two electrons marked as (\(e_1, e_2\))orbiting a nuecleus marked (\( Z\)) have the following list of energy:
+\( KE_1, KE_2, PE_{1, 2}, PE_{Z, 1} PE_{Z, 2}\)
+the hamiltonian operator becomes:
+\[\hat{H} = - \frac{\hbar}{2m} \nabla_1^2 + \frac{\hbar}{2m} \nabla_2^2 - \frac{1}{4 \pi \epsilon} \frac{Ze^2}{r_1} - \frac{1}{4 \pi \epsilon} \frac{Ze^2}{r_2} + \frac{1}{4 \pi \epsilon} \frac{e^2}{|\vec{r_1} - \vec{r_2}|} \]
+\(\hat{H} \psi = E \psi\) becomes too complicated
+- now replace \( \frac{1}{4 \pi \epsilon} \frac{e^2}{|\vec{r_1} - \vec{r_2}|} \) with \( U(\vec{r_1} + U(\vec{r_2}) \), the diffferenctial equation becomes separable.
+  \( \psi_{??}(\vec{r_1} \vec{r_2}) = \Phi_a(\vec{r_1})\Phi_b(\vec{r_2})\), also \( \psi_{a, b}(\vec{r_1} \vec{r_2}) = \Phi_a(\vec{r_2})\Phi_b(\vec{r_1}) \) because electrons are identical.
+
+\[ \\Psisi_{a, b}(\vec{r_1} \vec{r_2}) = \frac{1}{\sqrt{2}}( \Phi_a(\vec{r_1})\Phi_b(\vec{r_2}) ) - ( \Phi_a(\vec{r_2})\Phi_b(\vec{r_1}) ) \]
+the asymmetry is due to \(\Psi(a, a) = \frac{1}{\sqrt{2}}( \Phi_a(\vec{r_1})\Phi_a(\vec{r_2}) ) - ( \Phi_a(\vec{r_2})\Phi_a(\vec{r_1}) ) = 0\)
+
+replace non-spherically sysmmetric \( u(\vec{r_1}) + u(\vec{r_2}) \) with further approximation \( u(r_1) + u(r_2) \), which is spherically symmetric.
+part of this central field approximation is to say that the energy eigenvalues are \( e_{n, l} \)
+(this further approximation is called the _central field approxmiation_. this is the approximation starting point for all of quantum chemistry, atomic phpysics, material engineering, and do on)
+
+
+\[\hat{H} = - \frac{\hbar}{2m} \nabla_1^2 - \frac{1}{4 \pi \epsilon} \frac{Ze^2}{r_1} + u(r_1) + \frac{\hbar}{2m} \nabla_2^2 - \frac{1}{4 \pi \epsilon} \frac{Ze^2}{r_2} + u(r_2)) + \dots \]
+
+each \( \Phi_{a_i} = R_{n_i \ l_i}(r_i) \Theta_{l_i \ ml_{i}}(\theta_i) \Phi_{ml_i}(\phi_i) \), where \( a_i = (n_i, l_i, ml_i) \). we get to think of each electron in a Multi-electron atom as being hydrogen-like.
+
+
+
+
+new speak^*
+n -> shell number
+n, l -> sub shell
+different value of l are coded as:
+|----+------|
+|  l | code |
+|----+------|
+|  0 | s    |
+|  1 | p    |
+|  2 | d    |
+|  3 | f    |
+| .. | ...  |
+|----+------|
+
+for a subshell noted as \( 3d \) means this electron has \(n = 3 \), \( l = 2 \)

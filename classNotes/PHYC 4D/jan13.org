@@ -1,0 +1,41 @@
+#+TITLE: Jan 13th Class Notes
+#+AUTHOR: Ziky Zhang
+#+OPTIONS: tex:t toc:nil
+#+STARTUP: latexpreview
+#+LATEX_HEADER: \setlength{\abovedisplayskip}{0pt}
+#+LATEX_HEADER: \setlength{\belowdisplayskip}{0pt}
+#+LATEX_HEADER: \usepackage[a4paper, margin=1in]{geometry}
+1. A young soccer player kicks a ball. Their sister is standing next to the field and watches. Their mother is late to the game and sees the kick from her fast-moving car as she arrives to the parking lot of the soccer field.
+   1. What is the physical phenomena in this example?
+   2. How are the two observers moving relative to the phenomena?
+The sister will measure the kicked soccer ball to have a different velocity than the mother. Of course it's pretty easy to clear up the discrepancy between the measured velocities because the observers are smart and realize that they have a non-zero relative motion.
+
+2. Car 1 moves relative to the ground at \( v_1 = 20 \mathrm{m/s} \ \hat{i} \) and car 2 moves relative to the ground at \( v_2 = 30 \mathrm{m/s} \ \hat{i} \).
+   1. What does Car 1 measure as the velocity of Car 2 relative to their self?
+   2. What does Car 2 measure as the velocity of Car 1 relative to their self?
+   3. Can you write down some procedure or formalism to determine the answer to problems like these?
+
+3. In one frame of reference it is noted that two identical objects are headed towards each other with opposite velocities at the same speed. These objects are each \( 2 \ \mathrm{kg} \) and they each have a speed of \( 3 \ \mathrm{m/s} \). A special thing about these objects is that they display their own temperature which, before they collide, is \( 290 \ \mathrm{K} \) for each.
+They have a perfectly inelastic collision. And after some time the temperature of each object has settled to \( 292 \ \mathrm{K} \).
+      
+1. 
+\begin{paragraph}
+\ Say in the obejective frame, the soccer ball has been kicked into the \(\hat{i}\) direction at 13 mph. From the soccer player's perspective, the ball was at \( j \), and going into the \( -\hat{j} \) direction, where the soccer player follows the ball at a constant speed of 12 mph. The sister is sitting on courtside, generally the \( \hat{i} \) direction of the player, the soccer ball is also going in the \( \hat{i} \) direction of herself. The mother is driving pass in a car with constant velocity in the \( - \hat{j} \) direction slightly slower than the ball.
+\end{paragraph}
+
+2.
+Given that the velocity of both parties are measured from the same reference frame
+\[ \text{Observer's velocity} - \text{Observed item's velocity} = \text{the observed item's velocity relatives to the observer}\]
+
+3.
+\[O_1: &\]
+\begin{align*}
+KE_i &= \frac{1}{2}m_1v_1^2 + \frac{1}{2}m_2v_2^2 \\
+&= 2 \cdot \frac{1}{2}(2\mathrm{kg})(3 \mathrm{\frac{m}{s})^2} \\
+&= 18 \mathrm{J}
+\\
+KE_f &= \frac{1}{2}m_1v_1^2 +  \frac{1}{2}m_2v_2^2 \\
+&= 2 \cdot \frac{1}{2}(0)(0) //
+KE_i + T_i = KE_f + T_f//
+\text{Since we know that temperature increases by 2\textrm{K} after the collision, and all of the kinetic energy has been transfered, we can assume that all \(18 \mathrm{J}\) of kinetic energy has been transfer into thermal energy cause the 2\textrm{K} temperature increase}
+\end{align*}

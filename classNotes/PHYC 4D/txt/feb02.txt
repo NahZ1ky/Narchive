@@ -1,0 +1,125 @@
+#+TITLE: Feb 2nd Class Notes
+#+AUTHOR: Ziky Zhang
+#+OPTIONS: tex:t toc:nil
+#+STARTUP: latexpreview
+#+LATEX_HEADER: \setlength{\abovedisplayskip}{0pt}
+#+LATEX_HEADER: \setlength{\belowdisplayskip}{0pt}
+#+LATEX_HEADER: \usepackage[a4paper, margin=1in]{geometry}
+#+LATEX_HEADER: \usepackage{amsmath}
+* Outline
+Schrodinger's Equation
+- Motivation
+- The Equation (Time independent)
+  - Exploration
+  - Interpretation
+- Examples
+  - Infinite well
+  - Finite well
+  - Harmonic Oscillator
+- Time Dependence
+* Motivation
+Framework for solving problems
+-> First-Principles
+   e.g. Newton's Laws of Motion
+* Schrodinger's Equation (Time Independent)
+\[ E \Psi (x) = - \frac{\hbar}{2m} \frac{\partial^2}{\partial x^2} \Psi (x)\ + V(x) \Psi (x) \]
+\( \Psi (x) \) is a wave function
+- Backed by Experiments
+- Keeps de Broglie's wavelength \( \lambda \)
+
+\( \frac{\partial }{\partial x} \frac{\partial }{\partial x} \Psi (x)\) models a particle of mass subject to forces associated with \( V(x) \)
+Interpretation of \( \Psi(x) \): Has something to do with liekly hood to find it as functinon of where you look
+- The "Wave" of the function is a description for the graph of probability vs. distance.
+\( \Psi(x) \) in general is complex \( \mathrm{d Prob}(x) = \Psi * \Psi \mathrm{d}x \) -> \( \Psi \) must be normalized -> \( \int^{\infty}_{-\infty} \mathrm{d Prob} = 1 = \int^{\infty}_{- \infty} \Psi * \Psi \mathrm{d}x \)
+** Dimension analysis
+\begin{align*}
+z^{\*} \text{only over } \mathbb{R}. \quad
+z &= a + ib \\
+z^{*} &= a - ib \\
+z^{*} z &= (a - ib) ( a + ib) \\
+  &= a^2 + b^2
+\end{align*}
+\begin{align*}
+\mathrm{Dim}[\mathrm{Prob}] &= 1 \\
+\mathrm{Dim}[\Psi^{*}\Psi \mathrm{d}x ] &= 1 \\
+\mathrm{Dim}[\Psi] &= \frac{1}{\sqrt{\mathrm{length}}}
+\end{align*}
+\begin{align*}
+\text{Weighted averge}: 
+\left<  x \right> &= \int^{\infty}_{\infty} \Psi^{*} \cdot \Psi \cdot x \mathrm{d}x \\
+\left< f(x) \right> &= \int^{\infty}_{\infty} \Psi^{*} \cdot \Psi \cdot f(x) \mathrm{d}x \\
+f(x) &= x^2
+\end{align*}
+
+** Aside
+\begin{align*}
+K(x) &= \frac{1}{2} mv^2 \\
+  &= \frac{p^2}{2m} \\
+  &= \frac{\hbar^2k^2}{2m} \\ \\
+\Psi(x) &= e^{e(kx - \omega t)} \\
+\frac{\partial}{\partial x}\Psi(x) &= ike^{e(kx - \omega t)} \\
+\frac{\partial^2}{\partial x^2}\Psi(x) &= (ik)^2 e^{e(kx - \omega t)} \\
+\frac{\partial^2}{\partial x^2}\Psi(x) &= - k^2 e^{e(kx - \omega t)} \\
+\frac{\partial^2}{\partial x^2}\Psi(x) &= - k^2 \Psi(x) \\ \\
+K(x) \Psi(x) &= \frac{\hbar^2k^2}{2m} \Psi(x) \\
+K(x) \Psi(x) &= -\frac{\hbar^2}{2m} \frac{\partial^2 \Psi}{\partial x^2} \\
+\end{align*}
+* Infinite Well
+In a potential well where \( x = 0 \) and \( x = L \) has infinite potential,
+\begin{align*}
+v(x) = \left\{ 
+  \begin{array}{ c l l }
+    \infty & \quad \text{if } x < 0 & (I) \\
+    \infty & \quad \text{if } x > L & (II) \\
+    0      & \quad \text{if } 0 \leq x \leq L & (III)
+  \end{array}
+\right \}
+\end{align*}
+the force a particle will experience at \( x = L \) is \( F_x = - \frac{\mathrm{d}V}{\mathrm{d}x}|_{x = L} = - \infty\)
+
+\begin{align*}
+(III): -\frac{\hbar^2}{2m} \frac{\partial^2 \Psi}{\partial x^2} &= E \Psi \\
+\frac{\partial^2 \Psi}{\partial x^2} &= -\frac{2mE}{\hbar^2} \Psi \\
+\text{if: } \Psi(x) = A \sin(\kappa x) + B \cos(\kappa x) \\
+\frac{\partial}{\partial x}\Psi(x) = A\kappa \cos(\kappa x) - B\kappa \sin(\kappa x) \\
+\frac{\partial^2}{\partial x^2}\Psi(x) = - [A\kappa^2 \sin(\kappa x) + B\kappa^2 \cos(\kappa x)] \\
+\frac{\partial^2}{\partial x^2}\Psi(x) = - \kappa^2 \Psi(x)
+\end{align*}
+\[
+    \Psi(0) = 0 \\
+    \Psi(L) = 0 
+\]
+
+\begin{align*}
+\Psi(x) = A_n \sin(\kappa_n x) \\
+\kappa_n = \frac{n \pi}{L}, \quad n=1, 2, 3, \dots \\
+E_n = - \kappa_n^2 \Psi(x)_n \\
+\end{align*}
+*NOTES TO BE ADDED*
+* Finite Well
+\begin{align*}
+v(x) = \left\{ 
+  \begin{array}{ c l l }
+    V_0 & \quad \text{if } x < 0 & (I) \\
+    0   & \quad \text{if } 0 < x < L & (II) \\
+    V_0 & \quad \text{if } L < x & (III) \\
+  \end{array}
+\right \}
+\end{align*}
+\begin{align*}
+\mathrm{I:}  &E \Psi (x) = - \frac{\hbar}{2m} \frac{\partial^2}{\partial x^2} \Psi (x)\ + V(x) \Psi (x) \\
+\mathrm{II:}  &E \Psi (x) = - \frac{\hbar}{2m} \frac{\partial^2}{\partial x^2} \Psi (x)\ \\
+\mathrm{III:}  &E \Psi (x) = - \frac{\hbar}{2m} \frac{\partial^2}{\partial x^2} \Psi (x)\ + V(x) \Psi (x)
+\end{align*}
+Solution to this problem involes solving trancendental algebra problems. (e.g. \( 2x = 3 \sin(5x) \))
+Has strongg denpendence for number of trapped electron quantum states on \( L\text{, } m\text{, } V_0\) 
+* Harmonic Oscillartor
+\[ V(x) = \frac{1}{2} kx^2 \text{, \quad} k \text{ is the Hooke's Law spring constant}\]
+\( E \Psi (x) = - \frac{\hbar}{2m} \frac{\partial^2}{\partial x^2} \Psi (x)\ + \frac{1}{2}kx^2 \Psi (x) \)
+Solution to this problem involes solving Special Function problems.
+e.g. :
+\begin{align*}
+\Psi_n(x) &= A_n H_n(x) e^{-ax^2} \text{, \quad} n = 0, 1, 2, \dots \\
+a &= \frac{\sqrt{km}}{2\hbar} \\
+E_n &= (n + \frac{1}{2} \hbar \omega_0) \text{, \quad } \omega_0 = \sqrt{\frac{k}{m}}
+\end{align*}

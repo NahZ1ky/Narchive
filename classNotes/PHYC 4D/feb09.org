@@ -1,0 +1,56 @@
+#+TITLE: Feb 9th Class Notes
+#+AUTHOR: Ziky Zhang
+#+OPTIONS: tex:t toc:nil
+#+STARTUP: latexpreview
+#+LATEX_HEADER: \setlength{\abovedisplayskip}{0pt}
+#+LATEX_HEADER: \setlength{\belowdisplayskip}{0pt}
+#+LATEX_HEADER: \usepackage[a4paper, margin=1in]{geometry}
+#+LATEX_HEADER: \usepackage{amsmath}
+* Operator & waves
+  - Formalism \( \hat{x} \text{,} \hat{p}, \text{ & others...}\)
+    Operator idea: \(\psi\) is eigenfunction of \(\hat{v}\) with eigenvalue \(v\)
+  - If a system is in a state where physical variable that describes the system has a particular value, then \(\hat{v}\psi = v\psi \)
+Schrodinger equation ->
+\begin{align*}
+[- \frac{\hbar^2}{2m} \frac{\script{d}^2}{\scrpt{d} x^2} + V(x)] \psi(x) &= E \cdot \psi(x) \\
+\hat{H} \psi(x) &= E \cdot \psi(x) \\
+\text{ Hamiltonian } \uparrow  \qquad &
+\end{align*}
+* Example: Free-particle
+V = 0
+
+\psi(x) = Ae^{ikx} + Be^{-ikx}
+
+E = \frac{p^2}{2m}
+  p = \hbar k
+E = \frac{\hbar^{2} k^2}{2m}
+
+Conclusion:
+- The real part of the wave equation has the same amplitude all the way to positive and negative infinity.
+- No Restrictions on E, k, or \lambda
+- Single \lambda , but no idea of where the particle is. Because any x is equally likely to spot the particle.
+* Example: Infinite Well
+Result: \psi_n(x) is quantize. if outside of well, \psi(x) = 0; if 0 <= x <= L, \psi(x) = Asin(k_n x)
+
+k_n = \frac{n\pi}{L}, where n is a positive integrer.
+E_n = \frac{\hbar^2}{2m} \frac{n^2 \pi^2}{L^2}
+
+K \psi = E \psi inside of the well
+K \psi + V \psi= E \psi outside of the well where V \psi = \infty
+* Time Dependent SE
+\begin{align*}
+\Psi(x, t) &= \psi((x) e^{i \omega t} if V(x) is constant and \omega = \frac{E}{\hbar} \\
+\Psi(x, t) &= ( Ae^{ikx} + Be^{-ikx} ) e^{i \omega t} \\
+&= Ae^{i(kx - \omega t)} + Be^{i (\omega t - kx)} \\
+\hat{p} \Psi(x, t) &= \hat{p} Ae^{i(kx - \omega t)} + Be^{i (\omega t - kx)} \\
+\hat{p} \Psi(x, t) &= -i \hbar \frac{\script{d}}{\script dx} (Ae^{i(kx - \omega t)} + Be^{i (\omega t - kx)}) \\
+\hat{p} \Psi(x, t) &= (-i \hbar (ik Ae^{ikx} - ikAe^{-ikx)})) e^{-i \omega t} \\
+\hat{p} \Psi(x, t) &= \hbar k (Ae^0) e^{-i \omega t} \\
+\hat{p} \Psi(x, t) &= \hbar k A e^{-i \omega t}
+\end{align*}
+
+
+< f > = \inf \psi_f *  \psi dx
+  = \inf \psi(x) * e^{i \omega t} f \psi(x) e^{- i \omega t} dx
+#   e^{i \omega t} e^{- i \omega t}
+

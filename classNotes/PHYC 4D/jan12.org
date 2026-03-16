@@ -1,0 +1,91 @@
+#+TITLE: Jan 12th Class Notes
+#+AUTHOR: Ziky Zhang
+#+OPTIONS: tex:t toc:nil
+#+STARTUP: latexpreview
+#+LATEX_HEADER: \setlength{\abovedisplayskip}{0pt}
+#+LATEX_HEADER: \setlength{\belowdisplayskip}{0pt}
+#+LATEX_HEADER: \usepackage[a4paper, margin=1in]{geometry}
+Particle:
+\begin{align*}
+&\begin{aligned}
+\text{position} = \overrightarrow{x}(t)
+\end{aligned}
+\quad
+\begin{aligned}
+\text{velocity} = \overrightarrow{v}(t)
+\end{aligned}
+\quad
+\begin{aligned}
+\text{acceleration} = \overrightarrow{a}(t)
+\end{aligned} \\
+&\begin{aligned}
+\text{Force: } \overrightarrow{F_{\mathrm{net}}} = m \overrightarrow{a} \\
+\text{dimension: } \frac{\mathrm{ML}}{\mathrm{T^2}}
+\end{aligned}
+\quad
+\begin{aligned}
+\text{Momentum: } \overrightarrow{p} = m \overrightarrow{v} \\
+\text{dimension: } \frac{\mathrm{ML}}{\mathrm{T}}
+\end{aligned}
+\end{align*}
+
+Example:
+\begin{align*}
+\begin{aligned}
+2 \text{kg moves rightward at } 3 \text{ m/s} \\
+\overrightarrow{p_1} = 6 \frac{\mathrm{kg} \cdot \mathrm{m}}{\mathrm{s}} (\hat{i})
+\end{aligned}
+&\qquad
+\begin{aligned}
+3 \text{kg moves downward at } 2 \text{ m/s} \\
+\overrightarrow{p_2} = 6 \frac{\mathrm{kg} \cdot \mathrm{m}}{\mathrm{s}} (-\hat{j})
+\end{aligned} \\
+\overrightarrow{p_{\mathrm{system}}} &= \Sigma_{i = 1}^{N} = 6 \frac{\mathrm{kg} \cdot \mathrm{m}}{\mathrm{s}} (\hat{i} - \hat{j}) \\ \\
+\begin{aligned}
+KE_1 = 9 \frac{\mathrm{kg} \cdot \mathrm{m^{2}}}{\mathrm{s^{2}}}
+\end{aligned}
+&\qquad
+\begin{aligned}
+KE_2 = 6 \frac{\mathrm{kg} \cdot \mathrm{m^2}}{\mathrm{s^2}}
+\end{aligned} \\
+KE_{\mathrm{system}} &= \Sigma_{i = 1}^{N} = 15 \frac{\mathrm{kg} \cdot \mathrm{m^2}}{\mathrm{s^2}}
+\end{align*}
+
+\begin{align*}
+\begin{aligned}
+\frac{\mathrm{d}\vec{p}}{\mathrm{d}t} = \overrightarrow{F_{\mathrm{net}}}
+\end{aligned}
+\quad
+\begin{aligned}
+\frac{\mathrm{d}\vec{L}}{\mathrm{d}t} = \overrightarrow{\tau_{\mathrm{net}}}
+\end{aligned}
+\quad
+\begin{aligned}
+\overrightarrow{L} &= m \overrightarrow{\omega} \\
+&= \overrightarrow{r} \times \overrightarrow{p}
+\end{aligned}
+\end{align*}
+
+Exmaple:
+\begin{align*}
+2\text{ kg moves rightwards at } &\text{3 m/s, 3 meters above the origin} \\
+\begin{aligned}
+\overrightarrow{L_{0}} &= \overrightarrow{r_0} \times \overrightarrow{p} \\
+&= 3 \mathrm{m} (\hat{k}) \times 6 \frac{\mathrm{kg \cdot m}}{\mathrm{s}} (\hat{i}) \\
+&= 18 \mathrm{\frac{kg \cdot m^2}{s}} (-\hat{j})
+\end{aligned}
+&\quad
+\begin{aligned}
+\overrightarrow{L_{\mathrm{f}}} &= \overrightarrow{r_{\mathrm{f}}} \times \overrightarrow{p} \\
+&= (3 \mathrm{m} (\hat{k}) + 4 \mathrm{m} (\hat{i})) \times 6 \frac{\mathrm{kg \cdot m}}{\mathrm{s}} (\hat{i}) \\
+&= 3 \mathrm{m} (\hat{k}) \times 6 \frac{\mathrm{kg \cdot m}}{\mathrm{s}} (\hat{i}) + 4 \mathrm{m} (\hat{i})) \times 6 \frac{\mathrm{kg \cdot m}}{\mathrm{s}} (\hat{i}) \\
+&= 18 \mathrm{\frac{kg \cdot m^2}{s}} (-\hat{j}) + 0
+\end{aligned}
+\end{align*}
+
+Waves: \\
+is a travelling disturbance of a medium.
+\begin{align*}
+&\text{Example: } \\
+&\text{   - Sound } \quad \text{medium = air} \\
+\end{align*}

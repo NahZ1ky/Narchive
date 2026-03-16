@@ -1,0 +1,172 @@
+%& /Users/ziky/.cache/org-persist/b5/4009bf-1c6d-4252-aa94-84b94b3f4885-3006af205b6e876d903c956a87857e13
+% Created 2026-01-30 Fri 17:13
+% Intended LaTeX compiler: pdflatex
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{capt-of}
+\usepackage{hyperref}
+\setlength{\abovedisplayskip}{0pt}
+\setlength{\belowdisplayskip}{0pt}
+\usepackage[a4paper, margin=1in]{geometry}
+
+%% ox-latex features:
+%   !announce-start, !guess-pollyglossia, !guess-babel, !guess-inputenc,
+%   maths, image, !announce-end.
+
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\usepackage{graphicx}
+
+%% end ox-latex features
+
+
+% end precompiled preamble
+\ifcsname endofdump\endcsname\endofdump\fi
+
+\author{Ziky Zhang}
+\date{\today}
+\title{Jan 26th Class Notes}
+\hypersetup{
+ pdfauthor={Ziky Zhang},
+ pdftitle={Jan 26th Class Notes},
+ pdfkeywords={},
+ pdfsubject={},
+ pdfcreator={},
+ pdflang={English}}
+\begin{document}
+
+\maketitle
+\section{Topic: Wave-Particle duality}
+\label{sec:org39132e3}
+\begin{itemize}
+\item Light as particle
+\begin{itemize}
+\item Photo electric effect
+\item Atomic emission \& absorption of light
+\item Compton effect
+\end{itemize}
+\item Light as Wave
+\begin{itemize}
+\item X-ray scattering from crystal
+\item electron waves
+\end{itemize}
+\end{itemize}
+\section{Photo Electric Effect}
+\label{sec:orgd91caea}
+\subsection{significant}
+\label{sec:orgcfeef74}
+\begin{center}
+\begin{tabular}{lrl}
+\hline
+person & year & significance\\
+\hline
+Heinrich Hertz & 1887 & \\
+Albert Einstein & 1921 & Nobel\\
+Robert Milliken & 1923 & Nobel\\
+\hline
+\end{tabular}
+\end{center}
+\subsection{Experiment}
+\label{sec:org32cb413}
+\begin{center}
+\includegraphics[height=6cm]{./img/Photoelectric_effect_measurement_apparatus_-_microscopic_picture.svg.png}
+\end{center}
+\subsubsection{Voltage story}
+\label{sec:org37eac3d}
+Regardless of brightness of light (intensity), if \(f < f_c\), \(V=0\), electrons don't move.
+Regardless of brightness, if \(f > f_c\), V maxes out at some \(V_{stop}\).
+\(f_c\) is the cut-off frequency of the metal used.
+\subsubsection{Current Story}
+\label{sec:org62aaaf7}
+Regardless of Intensity, if \(f < f_c\), \(I_{current} = 0\) forever.
+Regardless of Intensity, if \(f > f_c\), \(I_{current}\) is readable within \(10^{-9} s\).
+\subsection{Wave model of light}
+\label{sec:org43db123}
+\(I_{intensity} = \frac{power}{area} = \frac{1}{2 \mu_0 c} |\overrightarrow{E_{0}}|^2\)
+\begin{align*}
+\text{With }I_{intensity} &= 100 \frac{W}{m^2} \text{ light source, how much time does it take to diliver } 10\mathrm{eV} \text{ of energy to an area of } (0.1\mathrm{nm})^2 \\
+I_{intensity} &= \frac{P}{A} = \frac{E}{t \cdot A} \\
+t &= \frac{E}{I_{intensity} \cdot A} \\ \\
+I_{intensity} &= 100 \frac{\mathrm{J}}{\mathrm{sm}^2} \\
+t &= \frac{1.6 \times 10^{-19}\mathrm{sm}^2}{100 \mathrm{eV}} \cdot \frac{10 \mathrm{eV}}{(10^{-10} \mathrm{m})^2} \\
+t &= 1.6 s
+\end{align*}
+\subsection{Theory of Photo Electric effect by Einstien}
+\label{sec:org37d95c7}
+\begin{itemize}
+\item Energy delivered by light happens in packets \(E_{packet} = h \cdot f\)
+\(h\) is the Planck's constant
+\item These packets are each a photon.
+\item One photon can liberate one electron.
+\item Different materials has different work function \((\Phi)\). Energy cost of losing an electron.
+\item \(KE_{\mathrm{max}} = \mathrm{eV_{\mathrm{stop}}}\)
+\end{itemize}
+\subsection{Energy Conservation}
+\label{sec:org03f189d}
+\begin{align*}
+hf = KE_{\mathrm{max}} + \Phi \\
+KE_{\mathrm{max}} = hf - \Phi &= \mathrm{eV_{stop}} \\
+mx + b &= y
+\end{align*}
+\begin{center}
+\begin{tabular}{lr}
+\hline
+metal & ϕ (eV)\\
+\hline
+Na & 2.28\\
+Pt & 6.35\\
+Cu & 4.70\\
+\hline
+\end{tabular}
+\end{center}
+\section{Atomic Emission \& Absorption of Light}
+\label{sec:org46a8381}
+In a \href{https://en.wikipedia.org/wiki/Gas-discharge\_lamp}{Gas discharge lamp} with metal on both ends, a few atoms of a single elecment is placed inside the lamp. The two sides of lamp is hooked up to a AC power supply. When the power switches on, electrons get shoot out from the positive side of the lamp and sprint through the electric field created by the charge build-up. "The ions typically cover only a very short distance before colliding with neutral gas atoms, which give the ions their electrons. The atoms which lost an electron during the collisions ionize and speed toward the cathode while the ions which gained an electron during the collisions return to a lower energy state, releasing energy in the form of photons."
+Observing the light from the lamp through a prism, light split into very specific blades of colors instead of a gradient of colors. Turns out, different atomic structures from different elements have different emission spectrum (finger print).
+\subsection{The Bohr Model}
+\label{sec:org15e43ab}
+\url{https://en.wikipedia.org/wiki/File:Bohr\_atom\_animation\_2.gif} \\
+The Bohr model successfully predicts finger print.
+By Coulomb's Law:
+\begin{align*}
+F = \frac{1}{4 \pi \epsilon_0} \frac{e^2}{r^2} &= ma_{\mathrm{centripital}} \\
+\frac{1}{8 \pi \epsilon_0} \frac{e^2}{r} &= \frac{mv^2}{2} \\
+KE &= \frac{1}{8 \pi \epsilon_0} \frac{e^2}{r} \\ \\
+U = - \frac{1}{4 \pi \epsilon_0} \frac{e^2}{r} &\qquad E = - \frac{1}{8 \pi \epsilon_0} \frac{e^2}{r}
+\end{align*}
+\subsubsection{Stationary States}
+\label{sec:org9a4e517}
+\(r \cdot mv = n \frac{h}{2 \pi} = n \hbar \text{, } n = 1, 2, 3, \dots\)
+\begin{align*}
+r \cdot mv &= n \frac{h}{2 \pi} = n \hbar \\
+v &= \frac{nh}{2 \pi rm} = \frac{n \hbar}{rm} \\
+v^2 &= (\frac{nh}{2 \pi rm})^2 = (\frac{n \hbar}{rm})^2 \\
+\end{align*}
+
+\begin{align*}
+\frac{1}{8 \pi \epsilon_0} \frac{e^2}{r} &= \frac{mv^2}{2} \\
+\frac{1}{8 \pi \epsilon_0} \frac{e^2}{r} &= \frac{m(\frac{n \hbar}{rm})^2}{2} \\
+\frac{1}{8 \pi \epsilon_0} \frac{e^2}{r} &= \frac{m n^2 \hbar^2}{2 r^2m^2} \\
+r &= \frac{8 \pi \epsilon_0 n^2 h^2 }{2 m e^2} \\
+r_n &= (\frac{4 \pi \epsilon_0 \hbar^2}{me^2}) \cdot n^2 \\
+a_0 = Bohr radius
+\end{align*}
+
+now replace \(r\) from the \(E\) equation:
+\begin{align*}
+E &= - \frac{1}{8 \pi \epsilon_0} \frac{e^2}{(\frac{4 \pi \epsilon_0 \hbar^2}{me^2}) \cdot n^2} \\
+  &= - \frac{1}{8 \pi \epsilon_0} \frac{e^2me^2}{4 \pi \epsilon_0 \hbar^2 \cdot n^2} \\
+  &= - \frac{me^4}{32 \pi^2 \epsilon_0^2 \hbar^2} \cdot \frac{1}{n^2} \simeq -13.6 \frac{eV}{n^2}
+\end{align*}
+
+\begin{align*}
+E_1 &= -13.6 eV \\
+E_2 &= -3.4 eV \\
+E_3 &= -1.51 eV \\
+E_4 &= -0.85 eV \\
+\end{align*}
+\end{document}

@@ -1,0 +1,22 @@
+\begin{tabular}{lccc}
+Concept / quantity & Electrical (series RLC) & Mechanical (mass--spring--damper) & Remarks / mapping \\
+\hline
+Primary state variable & \(q(t)\) & \(x(t)\) & \(q \leftrightarrow x\) \\
+Rate of state & \(i(t)=\dot q\) & \(v(t)=\dot x\) & \(i \leftrightarrow v\) \\
+Driving quantity & \(V(t)\) & \(F(t)\) & \(V \leftrightarrow F\) \\
+Inductor / mass & \(L\) & \(m\) & \(L \leftrightarrow m\) \\
+Resistor / damper & \(R\) & \(c\) & \(R \leftrightarrow c\) \\
+Capacitor / spring & \(C\) & \(k\) & \(1/C \leftrightarrow k\) \\
+\hline
+Element law (inertia) & \(v_L = L\dot i\) & \(F_m = m\dot v\) & inductor \(\leftrightarrow\) mass \\
+Element law (damping) & \(v_R = Ri\) & \(F_d = cv\) & resistor \(\leftrightarrow\) damper \\
+Element law (spring) & \(v_C = q/C\) & \(F_s = kx\) & capacitor \(\leftrightarrow\) spring \\
+Differential equation & \(L\ddot q + R\dot q + \frac{1}{C}q = V(t)\) & \(m\ddot x + c\dot x + kx = F(t)\) & same form \\
+Natural frequency & \(\omega_0 = \sqrt{\tfrac{1}{LC}}\) & \(\omega_0 = \sqrt{\tfrac{k}{m}}\) & equivalent mapping \\
+Damping ratio & \(\zeta = \frac{R}{2}\sqrt{\frac{C}{L}}\) & \(\zeta = \frac{c}{2\sqrt{km}}\) & equivalent mapping \\
+Quality factor & \(Q = \frac{1}{R}\sqrt{\tfrac{L}{C}}\) & \(Q = \frac{\sqrt{km}}{c}\) & same meaning \\
+Energy (kinetic) & \(\tfrac12 L i^2\) & \(\tfrac12 m v^2\) & inductor \(\leftrightarrow\) mass \\
+Energy (potential) & \(\tfrac12 \frac{q^2}{C}\) & \(\tfrac12 k x^2\) & capacitor \(\leftrightarrow\) spring \\
+Impedance form & \(Z(s)=R+sL+\frac{1}{sC}\) & \(Z_m(s)=c+sm+\frac{k}{s}\) & voltage/current \(\leftrightarrow\) force/velocity \\
+\hline
+\end{tabular}

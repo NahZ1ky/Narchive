@@ -1,0 +1,119 @@
+%& /Users/ziky/.cache/org-persist/0e/3b33a0-6345-4590-aeec-1fd24706a50c-1fc64c38fa07e6f8bfe4daf826445aa2
+% Created 2025-10-20 Mon 23:32
+% Intended LaTeX compiler: pdflatex
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{capt-of}
+\usepackage{hyperref}
+\setlength{\abovedisplayskip}{0pt}
+\setlength{\belowdisplayskip}{0pt}
+\usepackage[a4paper, margin=1in]{geometry}
+
+%% ox-latex features:
+%   !announce-start, !guess-pollyglossia, !guess-babel, !guess-inputenc,
+%   maths, !announce-end.
+
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+%% end ox-latex features
+
+
+% end precompiled preamble
+\ifcsname endofdump\endcsname\endofdump\fi
+
+\author{Ziky Zhang}
+\date{\today}
+\title{Worksheet \#7}
+\hypersetup{
+ pdfauthor={Ziky Zhang},
+ pdftitle={Worksheet \#7},
+ pdfkeywords={},
+ pdfsubject={},
+ pdfcreator={},
+ pdflang={English}}
+\begin{document}
+
+\maketitle
+\begin{enumerate}
+\item Two \(5.00 \mu \mathrm{F}\) capacitors are connected to each other in series and are then connected to a \(6.00 \mathrm{V}\) battery.
+\begin{enumerate}
+\item Calculate the charge on each capacitor (give two separate answers, one for each capacitor).
+\item The capacitors are now disconnected from the battery, and wax (\(\kappa = 4.00\)) is inserted into one of the two capacitors. Calculate the potential difference across the series combination after the wax is inserted.
+\item How much work is done by electrostatic forces on the wax as it is inserted into the capacitor?
+The capacitors are now disconnected from each other and then reconnected in parallel (positive plate to positive plate; negative plate to negative plate).  This is done carefully, so as to not accidentally discharge the capacitors.
+\item Determine the resulting charge on each capacitor after equilibrium is reestablished. (Hint: what is the voltage across each capacitor?)
+\item How much energy is converted to thermal energy in the resistance of the connecting wires while the charges rearrange themselves to reestablish equilibrium?
+\end{enumerate}
+\end{enumerate}
+
+\newpage
+1.(a)
+\begin{align*}
+\begin{aligned}[t]
+q_1 &= C_{1} \frac{V_{\mathrm{net}}}{2} \\
+    &= 5.00 \mu \mathrm{F} \cdot \frac{ 6.00 \mathrm{V} }{2} \\
+    &= 15.0 \mu \mathrm{C}
+\end{aligned}
+\qquad
+\begin{aligned}[t]
+q_2 &= C_{2} \frac{V_{\mathrm{net}}}{2} \\
+    &= 5.00 \mu \mathrm{F} \cdot \frac{ 6.00 \mathrm{V} }{2} \\
+    &= 15.0 \mu \mathrm{C}
+\end{aligned}
+\end{align*}
+
+1.(b)
+\begin{align*}
+V_{\mathrm{total}} &= V_1 + V^{'}_2 \\
+          &= \frac{q_1}{C_1} + \frac{q_2}{\kappa_{\mathrm{wax}} C_2} \\
+          &= 3.00 \mathrm{V} + \frac{15.0 \mu \mathrm{C}}{4.00 \cdot 5.00 \mu \mathrm{F}} \\
+          &= 3.00 \mathrm{V} + \frac{3}{4} \mathrm{V} \\
+          &= \frac{15}{4} \mathrm{V}
+\end{align*}
+
+1.(c)
+\begin{align*}
+W &= U_i - U_f \\
+  &= \frac{1}{2} \ ( C_2 V_2^2 - \kappa_{\mathrm{wax}} C_2 V_2^{'2} ) \\
+  &= \frac{1}{2} \ [ 5.00 \mu \mathrm{F} \cdot 3^2 \mathrm{V}^2 - 4.00 \cdot 5.00 \mu \mathrm{F} \cdot (\tfrac{3}{4})^2 \mathrm{V}^{2} ] \\
+  &= \frac{1}{2} \ [45.0 \mu \mathrm{J} - 11.25 \mu \mathrm{J}] \\
+  &= \frac{1}{2} \ 33.75 \ \mu \mathrm{J} \\
+  &= 16.875 \ \mu \mathrm{J}
+\end{align*}
+
+1.(d)
+Electric potential average out after connecting two capacitor after one of them was inserted with wax:
+\begin{align*}
+\begin{aligned}[t]
+V_{1, \mathrm{rec}} = V_{2, \mathrm{rec}} &= \frac{1}{2} \bigg( \frac{C_1 V_1 + \kappa C_2 V_2^{'}}{C_1 + \kappa C_2^{'}} \bigg) \\
+  &= \frac{1}{2} \frac{5.00 \mu \mathrm{F} \cdot 3.00 \mathrm{V} + 20.0 \mu \mathrm{F} \cdot \tfrac{3}{4} \mathrm{V}}{5.00 \mu \mathrm{F} + 20.0 \mu \mathrm{F}} \\
+  &= \frac{15 + 15}{25} \mathrm{V}\\
+  &= \frac{6}{5} \mathrm{V}\\
+\end{aligned}
+\quad
+\begin{aligned}[t]
+q_{1, \mathrm{rec}} &= C_1 V_{1, \mathrm{rec}} \\
+  &=  5.00 \mu \mathrm{F} \cdot \frac{6}{5} \mathrm{V} \\
+  &=  6.00 \mu \mathrm{C} \\
+\end{aligned}
+\quad
+\begin{aligned}[t]
+q_{2, \mathrm{rec}} &= \kappa C_2 V_{2, \mathrm{rec}} \\
+  &=  4.00 \cdot 5.00 \mu \mathrm{F} \cdot \frac{6}{5} \mathrm{V} \\
+  &=  24.0 \mu \mathrm{C} \\
+\end{aligned}
+\end{align*}
+
+1.(e)
+\begin{align*}
+\Delta U &= U_i - U_f \\
+         &= \frac{1}{2} \ (C_1 V_1^2 + \kappa_{\mathrm{wax}} C_2 V_2^{'2}) - \frac{1}{2} \ ( C_1 V_{1, rec}^2 + \kappa_{\mathrm{wax}} C_2 V_{2, rec}^{'2}) \\
+         &= \frac{1}{2} \ (45.0 + \frac{180}{16}) \mu \mathrm{J} - \frac{1}{2} \ ( \frac{36}{5} + \frac{144}{5} ) \mu \mathrm{J} \\
+         &= 28.125 \mu \mathrm{J} - 18 \mu \mathrm{J} \\
+         &= 10.125 \mu \mathrm{J}
+\end{align*}
+\end{document}

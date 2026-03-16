@@ -1,0 +1,46 @@
+#+TITLE: Feb 3rd Class Activities
+#+AUTHOR: Ziky Zhang
+#+OPTIONS: tex:t toc:nil
+#+STARTUP: latexpreview
+#+LATEX_HEADER: \setlength{\abovedisplayskip}{0pt}
+#+LATEX_HEADER: \setlength{\belowdisplayskip}{0pt}
+#+LATEX_HEADER: \usepackage[a4paper, margin=1in]{geometry}
+#+LATEX_HEADER: \usepackage{amsmath}
+1.  Harmonic Oscillator
+The classical oscillator is a Hooke's Law spring of constant \( k \) connected to mass \( m \). This classical oscillator has a fixed angular frequency of \( \omega=\sqrt{k/m} \). The potential energy is \( V(x)=\frac{1}{2}kx^2 \). Note that this gets you started on a hw problem.
+   1. Rewrite the potential energy in terms of the mass and frequency.
+   2. Quantize the classical harmonic oscillator by writing down its Schrodinger Equation.
+   3. Show that the wave function \( \psi_o(x)=Ae^{\frac{-m\omega x^2}{2\hbar}} \) with the energy \( E_o=\frac{1}{2}\hbar\omega \) solves the Schrodinger Equation. Remember that \( A \) is a constant.
+   4. The constant \( A \) is a normalization constant. Write down the integral you would use to determine this constant. The bounds are important, make sure to include them. You can wait to do this integral and determine the value of the normalization constant when you do your homework (which could even be tonight, if you wanted!!)
+2. Finite Potential Well
+Let's center a finite well of width \( L \) and height \( V_o \) at \( x=-L/2 \) so the right edge of this container is at \( x=0 \).
+What we are going to do is use Schrodinger's Equation to explore what kind of wave functions will arise with this container. In particular, you will see that the wave function will either be a wave or it will be an exponential die-off depending on whether \( E-V_o \) is positive or negative.
+   1. Write this potential energy function regionally as we did in the lecture. I used a big bracket and did a piece-wise definition for the function \( V(x) \) where the function \( V \) had a different form for different ranges of \( x \).
+   2. Let's look at Schrodinger's Equation in the region where \( x>0 \text{ if } E<V_o \). Will the wave function in this region be a wave or an exponential? Hint: the answer to this comes down to asking which kind of function returns the correct sign when two derivatives are taken.
+   3. Let's look at Schrodinger's Equation in the region where \( x>0 \text{if} E>V_o \). Will the wave function in this region be a wave or an exponential?
+
+* Solution
+1.1 Rewrite the potential energy in terms of the mass and frequency.
+\begin{align*}
+\omega = \sqrt{k/m} &= 2 \pi f\\
+k/m &= 4 \pi f^2 \\
+k &= 4 \pi f^2 m \\
+\\
+V(x) &= \frac{1}{2}kx^2 \\
+  &= 2 \pi f^2 m x^2 \\
+\end{align*}
+1.2
+\begin{align*}
+E(x)\Psi(x) &= - \frac{\hbar^2}{2m} \frac{\mathrm{d}^2}{\mathrm{d}x^2}\Psi(x) + V(x)\Psi(x) \\ 
+E(x)\Psi(x) &= - \frac{\hbar^2}{2m} \frac{\mathrm{d}^2}{\mathrm{d}x^2}\Psi(x) + (2 \pi f^2 m x^2)\Psi(x) \\ 
+\end{align*}
+
+1.3
+\begin{align*}
+\Psi_o(x) &= Ae^{\frac{-m \omega x^2}{2\hbar}} \\
+\frac{\mathrm{d}}{\mathrm{d}x}\Psi_o(x) &= -2x Ae^{\frac{-m\omega x^2}{2\hbar}} \\
+\frac{\mathrm{d^2}}{\mathrm{d}x^2}\Psi_o(x) &= 4x^2 Ae^{\frac{-m\omega x^2}{2\hbar}} \\
+\\
+(\frac{1}{2}\hbar\omega) (Ae^{\frac{-m\omega x^2}{2\hbar}}) &= - \frac{\hbar^2}{2m} (4x^2 Ae^{\frac{-m\omega x^2}{2\hbar}}) + (2 \pi f^2 m x^2)(Ae^{\frac{-m\omega x^2}{2\hbar}}) \\
+(\frac{1}{4 \pi} h \omega) &= - \frac{2x^2\hbar^2}{m}  + (2 \pi f^2 m x^2) \\
+\end{align*}

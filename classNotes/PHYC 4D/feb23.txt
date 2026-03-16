@@ -1,0 +1,87 @@
+;; This buffer is for text that is not saved, and for Lisp evaluation.
+;; To create a file, visit it with ‘C-x C-f’ and enter text in its buffer.
+pc
+
+defun degeneratcy(z):
+count = 0
+n = x
+for y = 0 -> 1:
+  l = y             ;; optional if only need count
+  for z = -y -> y:
+    ml = z          ;; optional if only need count
+    count++
+return count
+
+
+defun energtBn(n):
+E = -13,6 / n^2     ;; unit - eV
+
+
+
+
+
+
+
+
+*quantum numbers in 3d
+** n: principle quantum number
+  n = 1, 2, 3, ..., n
+  the physical significance of n, Energy state can be described by it, see function energyBn
+** l: orbital angular momentum quantum number
+  l = 0, 1, 2, ..., n-1
+  vec{L} = L_x hat{i} +  L_y hat{j} +  L_z hat{k}
+  the physical significance of l, l is the materal swirl of atom, calssically: vec{L} = vec{r} \times vec{p}, but in quantum, L = hbar \cdot sqrt{l(l+1)}
+** m_l: z-component of orbital angular momentum quatum number
+  m_l = -l, -l+1, -l+2, ..., l
+  the physical significance of m_l, gets you the L_z hat{k} part of the vec{L}, L_z = m_l \cdot hbar
+
+
+* polar coordinate sys.
+x = r sin \theta cos \phi
+y = r sin \theta sin \phi
+z = r cos \theta
+
+- the wave function in R3 when being expressed in polar form can be s
+eperated in to three function in terms of each variable,
+\Psi_{n, l, m_l} = R__{n, l}(r) * \Theta_{l, m_l}(\theta) * \Phi_{m_l}(\phi)
+
+
+
+
+
+example:
+when l = 2
+
+|vec(L)| = hbar sqrt(6)
+m_l = -2, 1, 0, 1, 2
+and L_z = -2hbar, -hbar, 0, hbar, 2hbar
+this implies that we can not be sure of the z component of the orbital angular momentum/
+
+
+
+
+
+\psi_(3, 2, -1) = 
+4 / (27 sqrt(10) (3 a_0)^(3/2)) r^2 / a_0^2 e^(-r/(3a_0)) \cdot - sqrt(15/4) sin(\theta) cos(\theta) \cdot 1/(sqrt(2 \pi)) e^(i \phi)
+
+
+
+
+probability in R3:
+dProb = \psi^* \psi dx in R1
+dProb = \psi^* \psi r^2 dV = \psi^* \psi r^2 dr d\pphi d\theta in R3
+
+P(r) = r^2 R_(nl)^* R_(nl)
+dProb = P(r)dr = r^2 R_(nl)^* R_(nl) dr
+<r> = \int^\infty_0 r P(r) dr
+
+
+
+
+
+
+
+
+further:
+- bohr magneton
+- electron spin quantum number

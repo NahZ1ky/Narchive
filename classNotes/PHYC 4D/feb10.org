@@ -1,0 +1,23 @@
+#+TITLE: Feb 10th Class Notes
+#+AUTHOR: Ziky Zhang
+#+OPTIONS: tex:t toc:nil
+#+STARTUP: latexpreview
+#+LATEX_HEADER: \setlength{\abovedisplayskip}{0pt}
+#+LATEX_HEADER: \setlength{\belowdisplayskip}{0pt}
+#+LATEX_HEADER: \usepackage[a4paper, margin=1in]{geometry}
+#+LATEX_HEADER: \usepackage{amsmath}
+* Where are we?
+After the realization of the particle-wave dual nature, de Broglie assigned a wavelength for every particle by \( \lambda = \frac{h}{p} \).
+Schrodinger proposed the mechanics of wave by the Schrodinger Equation.
+Which, we can interpret the Equation \((-\frac{\hbar^2}{2m}  \frac{d^2}{dx^2} + V)\) as the operator on the wave function \(\psi\), and \(E\) as the scaler of the function on the other side.
+
+* What is \(\psi\)?
+the probability to discover particle between x and x + dx
+\( \mathrm{prob}(x, x+dx) = \psi*(x) \cdot \psi(x) \mathrm{d}x \), so \( 1 = \int_{\mathrm{all possible places}} \psi*\psi \mathrm{d}x\)
+Intensity reflects Probability
+use this to make prediction for outcomes of experiments
+
+We are learning how to ask \(\ \psi \)  questions
+Questions are asked with operators
+1. \[\hat{A} \psi_n = a_n \psi_n\]
+2. \[ (\text{average value of } a) = < a > = a_{\mathrm{avg}} = \int_{\text{all possible places}} \psi*(x)[\hat{A} \psi(x)] dx\]
