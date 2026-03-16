@@ -1,0 +1,31 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color gray
+color green
+color purple_200
+color purple_500
+color purple_700
+color red
+color teal_200
+color teal_700
+color white
+color yellow
+drawable green_light
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+drawable red_light
+drawable yellow_light
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+string button_text
+string green_light_description
+string green_light_text
+string red_light_description
+string red_light_text
+string yellow_light_description
+string yellow_light_text
+style Theme.TrafficLight
+xml backup_rules
+xml data_extraction_rules

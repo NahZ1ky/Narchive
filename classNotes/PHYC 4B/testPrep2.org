@@ -1,8 +1,0 @@
-#+TITLE: Prep for test 2
-#+AUTHOR: Ziky Zhang
-#+OPTIONS: tex:t toc:nil
-#+STARTUP: latexpreview
-#+LATEX_HEADER: \setlength{\abovedisplayskip}{0pt}
-#+LATEX_HEADER: \setlength{\belowdisplayskip}{0pt}
-#+LATEX_HEADER: \usepackage[a4paper, margin=1in]{geometry}
-

@@ -1,0 +1,10 @@
+#Tue Oct 15 16:59:33 PDT 2024
+base.0=/Users/ziky/Documents/GitHub/CS_211D/AndroidStudioProjects/TwoWeeksApp/app/build/intermediates/dex/debugAndroidTest/mergeExtDexDebugAndroidTest/classes.dex
+base.1=/Users/ziky/Documents/GitHub/CS_211D/AndroidStudioProjects/TwoWeeksApp/app/build/intermediates/dex/debugAndroidTest/mergeProjectDexDebugAndroidTest/0/classes.dex
+base.2=/Users/ziky/Documents/GitHub/CS_211D/AndroidStudioProjects/TwoWeeksApp/app/build/intermediates/dex/debugAndroidTest/mergeProjectDexDebugAndroidTest/15/classes.dex
+path.0=classes.dex
+path.1=0/classes.dex
+path.2=15/classes.dex
+renamed.0=classes.dex
+renamed.1=classes2.dex
+renamed.2=classes3.dex

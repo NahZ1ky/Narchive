@@ -1,0 +1,20 @@
+R_DEF: Internal format may change without notice
+local
+dimen padding_medium
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+string congratulations
+string enter_your_word
+string exit
+string instructions
+string play_again
+string score
+string skip
+string submit
+string word_count
+string wrong_guess
+string you_scored
+style Theme.Unscramble

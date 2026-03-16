@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="padding_medium">16dp</dimen>
+    <string name="app_name">Unscramble</string>
+    <string name="congratulations">Congratulations!</string>
+    <string name="enter_your_word">Enter your word</string>
+    <string name="exit">Exit</string>
+    <string name="instructions">Unscramble the word using all the letters.</string>
+    <string name="play_again">Play Again</string>
+    <string name="score">Score: %d</string>
+    <string name="skip">Skip</string>
+    <string name="submit">Submit</string>
+    <string name="word_count">%d/10</string>
+    <string name="wrong_guess">Wrong Guess!</string>
+    <string name="you_scored">"You scored: %d"</string>
+    <style name="Theme.Unscramble" parent="android:Theme.Material.Light.NoActionBar"/>
+</resources>

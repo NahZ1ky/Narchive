@@ -1,0 +1,118 @@
+[
+    {
+        "merged": "/Users/ziky/.gradle/daemon/8.7/com.nahziky.woof.app-debug-44:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/Users/ziky/.gradle/daemon/8.7/com.nahziky.woof.app-main-46:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/Users/ziky/.gradle/daemon/8.7/com.nahziky.woof.app-debug-44:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/ziky/.gradle/daemon/8.7/com.nahziky.woof.app-main-46:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/ziky/.gradle/daemon/8.7/com.nahziky.woof.app-debug-44:/xml_data_extraction_rules.xml.flat",
+        "source": "/Users/ziky/.gradle/daemon/8.7/com.nahziky.woof.app-main-46:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "/Users/ziky/.gradle/daemon/8.7/com.nahziky.woof.app-debug-44:/drawable_bella.jpg.flat",
+        "source": "/Users/ziky/.gradle/daemon/8.7/com.nahziky.woof.app-main-46:/drawable/bella.jpg"
+    },
+    {
+        "merged": "/Users/ziky/.gradle/daemon/8.7/com.nahziky.woof.app-debug-44:/xml_backup_rules.xml.flat",
+        "source": "/Users/ziky/.gradle/daemon/8.7/com.nahziky.woof.app-main-46:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "/Users/ziky/.gradle/daemon/8.7/com.nahziky.woof.app-debug-44:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/ziky/.gradle/daemon/8.7/com.nahziky.woof.app-main-46:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/ziky/.gradle/daemon/8.7/com.nahziky.woof.app-debug-44:/drawable_frankie.jpg.flat",
+        "source": "/Users/ziky/.gradle/daemon/8.7/com.nahziky.woof.app-main-46:/drawable/frankie.jpg"
+    },
+    {
+        "merged": "/Users/ziky/.gradle/daemon/8.7/com.nahziky.woof.app-debug-44:/drawable_lola.jpg.flat",
+        "source": "/Users/ziky/.gradle/daemon/8.7/com.nahziky.woof.app-main-46:/drawable/lola.jpg"
+    },
+    {
+        "merged": "/Users/ziky/.gradle/daemon/8.7/com.nahziky.woof.app-debug-44:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "/Users/ziky/.gradle/daemon/8.7/com.nahziky.woof.app-main-46:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/ziky/.gradle/daemon/8.7/com.nahziky.woof.app-debug-44:/drawable_nox.jpg.flat",
+        "source": "/Users/ziky/.gradle/daemon/8.7/com.nahziky.woof.app-main-46:/drawable/nox.jpg"
+    },
+    {
+        "merged": "com.nahziky.woof.app-debug-44:/font_montserrat_bold.ttf.flat",
+        "source": "com.nahziky.woof.app-main-46:/font/montserrat_bold.ttf"
+    },
+    {
+        "merged": "/Users/ziky/.gradle/daemon/8.7/com.nahziky.woof.app-debug-44:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "/Users/ziky/.gradle/daemon/8.7/com.nahziky.woof.app-main-46:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/ziky/.gradle/daemon/8.7/com.nahziky.woof.app-debug-44:/drawable_leroy.jpg.flat",
+        "source": "/Users/ziky/.gradle/daemon/8.7/com.nahziky.woof.app-main-46:/drawable/leroy.jpg"
+    },
+    {
+        "merged": "/Users/ziky/.gradle/daemon/8.7/com.nahziky.woof.app-debug-44:/drawable_moana.jpg.flat",
+        "source": "/Users/ziky/.gradle/daemon/8.7/com.nahziky.woof.app-main-46:/drawable/moana.jpg"
+    },
+    {
+        "merged": "/Users/ziky/.gradle/daemon/8.7/com.nahziky.woof.app-debug-44:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/ziky/.gradle/daemon/8.7/com.nahziky.woof.app-main-46:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/ziky/.gradle/daemon/8.7/com.nahziky.woof.app-debug-44:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/ziky/.gradle/daemon/8.7/com.nahziky.woof.app-main-46:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/ziky/.gradle/daemon/8.7/com.nahziky.woof.app-debug-44:/drawable_koda.jpg.flat",
+        "source": "/Users/ziky/.gradle/daemon/8.7/com.nahziky.woof.app-main-46:/drawable/koda.jpg"
+    },
+    {
+        "merged": "com.nahziky.woof.app-debug-44:/font_abril_fatface_regular.ttf.flat",
+        "source": "com.nahziky.woof.app-main-46:/font/abril_fatface_regular.ttf"
+    },
+    {
+        "merged": "/Users/ziky/.gradle/daemon/8.7/com.nahziky.woof.app-debug-44:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "/Users/ziky/.gradle/daemon/8.7/com.nahziky.woof.app-main-46:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/ziky/.gradle/daemon/8.7/com.nahziky.woof.app-debug-44:/drawable_tzeitel.jpg.flat",
+        "source": "/Users/ziky/.gradle/daemon/8.7/com.nahziky.woof.app-main-46:/drawable/tzeitel.jpg"
+    },
+    {
+        "merged": "/Users/ziky/.gradle/daemon/8.7/com.nahziky.woof.app-debug-44:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/Users/ziky/.gradle/daemon/8.7/com.nahziky.woof.app-main-46:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.nahziky.woof.app-debug-44:/font_montserrat_regular.ttf.flat",
+        "source": "com.nahziky.woof.app-main-46:/font/montserrat_regular.ttf"
+    },
+    {
+        "merged": "/Users/ziky/.gradle/daemon/8.7/com.nahziky.woof.app-debug-44:/drawable_ic_launcher_background.xml.flat",
+        "source": "/Users/ziky/.gradle/daemon/8.7/com.nahziky.woof.app-main-46:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/Users/ziky/.gradle/daemon/8.7/com.nahziky.woof.app-debug-44:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "/Users/ziky/.gradle/daemon/8.7/com.nahziky.woof.app-main-46:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/Users/ziky/.gradle/daemon/8.7/com.nahziky.woof.app-debug-44:/drawable_faye.jpg.flat",
+        "source": "/Users/ziky/.gradle/daemon/8.7/com.nahziky.woof.app-main-46:/drawable/faye.jpg"
+    },
+    {
+        "merged": "/Users/ziky/.gradle/daemon/8.7/com.nahziky.woof.app-debug-44:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/ziky/.gradle/daemon/8.7/com.nahziky.woof.app-main-46:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/ziky/.gradle/daemon/8.7/com.nahziky.woof.app-debug-44:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "/Users/ziky/.gradle/daemon/8.7/com.nahziky.woof.app-main-46:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/ziky/.gradle/daemon/8.7/com.nahziky.woof.app-debug-44:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "/Users/ziky/.gradle/daemon/8.7/com.nahziky.woof.app-main-46:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/ziky/.gradle/daemon/8.7/com.nahziky.woof.app-debug-44:/drawable_ic_woof_logo.xml.flat",
+        "source": "/Users/ziky/.gradle/daemon/8.7/com.nahziky.woof.app-main-46:/drawable/ic_woof_logo.xml"
+    }
+]

@@ -1,7 +1,0 @@
-29	code’s actually solid and handles edge cases nicely, but using a `set` here feels a bit extra since duplicates don’t mess with finding the max anyway. keep it up though clean work overall.
-t4	good effort, handling negatives and utf8 is a nice flex, great job!
-vy	clean and concise, but that comment about commas cutting off feels like a half baked idea, either fix it or remove it. great handling of errors and nice use of `with open()`.
-hz	nice use of `search` for a line by line scan, but calling the variable `max` is risky, could clash with the builtin `max()` function. consider renaming it. the rest looks solid and handles everything cleanly.
-9a	clean flow. love the idea of stripping commas for clarity, solid, readable structure though.
-ce	this is a well structured submission with clear exception handling and a clean layout.
-w3	solid function breakdown and great use of modular structure, but the regex pattern using \b boundaries interferes with capturing negative numbers properly. tight overall, just polish that regex.

@@ -1,0 +1,176 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.nahziky.grocerylist"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="34" />
+10
+11    <!--
+12    This is needed to write benchmark report data to an external directory during instrumented
+13    tests to allow the accompanying androidx.benchmark gradle plugin to pull the reports onto host
+14     machine after the tests are done running.
+15    -->
+16    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+16-->[androidx.benchmark:benchmark-common:1.3.3] /Users/ziky/.gradle/caches/transforms-4/d7785961040ff429a0c39f17b28906c3/transformed/benchmark-common-1.3.3/AndroidManifest.xml:27:5-81
+16-->[androidx.benchmark:benchmark-common:1.3.3] /Users/ziky/.gradle/caches/transforms-4/d7785961040ff429a0c39f17b28906c3/transformed/benchmark-common-1.3.3/AndroidManifest.xml:27:22-78
+17    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+18
+19    <permission
+19-->[androidx.core:core:1.13.1] /Users/ziky/.gradle/caches/transforms-4/fbdf7909636c2796e1f652dccd4346dc/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+20        android:name="com.nahziky.grocerylist.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+20-->[androidx.core:core:1.13.1] /Users/ziky/.gradle/caches/transforms-4/fbdf7909636c2796e1f652dccd4346dc/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+21        android:protectionLevel="signature" />
+21-->[androidx.core:core:1.13.1] /Users/ziky/.gradle/caches/transforms-4/fbdf7909636c2796e1f652dccd4346dc/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+22
+23    <uses-permission android:name="com.nahziky.grocerylist.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+23-->[androidx.core:core:1.13.1] /Users/ziky/.gradle/caches/transforms-4/fbdf7909636c2796e1f652dccd4346dc/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+23-->[androidx.core:core:1.13.1] /Users/ziky/.gradle/caches/transforms-4/fbdf7909636c2796e1f652dccd4346dc/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+24
+25    <application
+25-->/Users/ziky/Documents/GitHub/CS_211D/AndroidStudioProjects/GroceryList/app/src/main/AndroidManifest.xml:5:5-26:19
+26        android:allowBackup="true"
+26-->/Users/ziky/Documents/GitHub/CS_211D/AndroidStudioProjects/GroceryList/app/src/main/AndroidManifest.xml:6:9-35
+27        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+27-->[androidx.core:core:1.13.1] /Users/ziky/.gradle/caches/transforms-4/fbdf7909636c2796e1f652dccd4346dc/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
+28        android:dataExtractionRules="@xml/data_extraction_rules"
+28-->/Users/ziky/Documents/GitHub/CS_211D/AndroidStudioProjects/GroceryList/app/src/main/AndroidManifest.xml:7:9-65
+29        android:debuggable="true"
+30        android:extractNativeLibs="false"
+31        android:fullBackupContent="@xml/backup_rules"
+31-->/Users/ziky/Documents/GitHub/CS_211D/AndroidStudioProjects/GroceryList/app/src/main/AndroidManifest.xml:8:9-54
+32        android:icon="@mipmap/ic_launcher"
+32-->/Users/ziky/Documents/GitHub/CS_211D/AndroidStudioProjects/GroceryList/app/src/main/AndroidManifest.xml:9:9-43
+33        android:label="@string/app_name"
+33-->/Users/ziky/Documents/GitHub/CS_211D/AndroidStudioProjects/GroceryList/app/src/main/AndroidManifest.xml:10:9-41
+34        android:roundIcon="@mipmap/ic_launcher_round"
+34-->/Users/ziky/Documents/GitHub/CS_211D/AndroidStudioProjects/GroceryList/app/src/main/AndroidManifest.xml:11:9-54
+35        android:supportsRtl="true"
+35-->/Users/ziky/Documents/GitHub/CS_211D/AndroidStudioProjects/GroceryList/app/src/main/AndroidManifest.xml:12:9-35
+36        android:testOnly="true"
+37        android:theme="@style/Theme.GroceryList" >
+37-->/Users/ziky/Documents/GitHub/CS_211D/AndroidStudioProjects/GroceryList/app/src/main/AndroidManifest.xml:13:9-49
+38        <activity
+38-->/Users/ziky/Documents/GitHub/CS_211D/AndroidStudioProjects/GroceryList/app/src/main/AndroidManifest.xml:15:9-25:20
+39            android:name="com.nahziky.grocerylist.MainActivity"
+39-->/Users/ziky/Documents/GitHub/CS_211D/AndroidStudioProjects/GroceryList/app/src/main/AndroidManifest.xml:16:13-41
+40            android:exported="true"
+40-->/Users/ziky/Documents/GitHub/CS_211D/AndroidStudioProjects/GroceryList/app/src/main/AndroidManifest.xml:17:13-36
+41            android:label="@string/app_name"
+41-->/Users/ziky/Documents/GitHub/CS_211D/AndroidStudioProjects/GroceryList/app/src/main/AndroidManifest.xml:18:13-45
+42            android:theme="@style/Theme.GroceryList" >
+42-->/Users/ziky/Documents/GitHub/CS_211D/AndroidStudioProjects/GroceryList/app/src/main/AndroidManifest.xml:19:13-53
+43            <intent-filter>
+43-->/Users/ziky/Documents/GitHub/CS_211D/AndroidStudioProjects/GroceryList/app/src/main/AndroidManifest.xml:20:13-24:29
+44                <action android:name="android.intent.action.MAIN" />
+44-->/Users/ziky/Documents/GitHub/CS_211D/AndroidStudioProjects/GroceryList/app/src/main/AndroidManifest.xml:21:17-69
+44-->/Users/ziky/Documents/GitHub/CS_211D/AndroidStudioProjects/GroceryList/app/src/main/AndroidManifest.xml:21:25-66
+45
+46                <category android:name="android.intent.category.LAUNCHER" />
+46-->/Users/ziky/Documents/GitHub/CS_211D/AndroidStudioProjects/GroceryList/app/src/main/AndroidManifest.xml:23:17-77
+46-->/Users/ziky/Documents/GitHub/CS_211D/AndroidStudioProjects/GroceryList/app/src/main/AndroidManifest.xml:23:27-74
+47            </intent-filter>
+48        </activity>
+49        <!-- Activity used to block background content while benchmarks are running -->
+50        <activity
+50-->[androidx.benchmark:benchmark-common:1.3.3] /Users/ziky/.gradle/caches/transforms-4/d7785961040ff429a0c39f17b28906c3/transformed/benchmark-common-1.3.3/AndroidManifest.xml:32:9-36:20
+51            android:name="androidx.benchmark.IsolationActivity"
+51-->[androidx.benchmark:benchmark-common:1.3.3] /Users/ziky/.gradle/caches/transforms-4/d7785961040ff429a0c39f17b28906c3/transformed/benchmark-common-1.3.3/AndroidManifest.xml:33:13-64
+52            android:exported="true"
+52-->[androidx.benchmark:benchmark-common:1.3.3] /Users/ziky/.gradle/caches/transforms-4/d7785961040ff429a0c39f17b28906c3/transformed/benchmark-common-1.3.3/AndroidManifest.xml:34:13-36
+53            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen" >
+53-->[androidx.benchmark:benchmark-common:1.3.3] /Users/ziky/.gradle/caches/transforms-4/d7785961040ff429a0c39f17b28906c3/transformed/benchmark-common-1.3.3/AndroidManifest.xml:35:13-77
+54        </activity>
+55
+56        <service
+56-->[androidx.room:room-runtime-android:2.7.0-alpha10] /Users/ziky/.gradle/caches/transforms-4/cf54cc0f49a68f72cc24ab4c67165be3/transformed/room-runtime-release/AndroidManifest.xml:24:9-28:63
+57            android:name="androidx.room.MultiInstanceInvalidationService"
+57-->[androidx.room:room-runtime-android:2.7.0-alpha10] /Users/ziky/.gradle/caches/transforms-4/cf54cc0f49a68f72cc24ab4c67165be3/transformed/room-runtime-release/AndroidManifest.xml:25:13-74
+58            android:directBootAware="true"
+58-->[androidx.room:room-runtime-android:2.7.0-alpha10] /Users/ziky/.gradle/caches/transforms-4/cf54cc0f49a68f72cc24ab4c67165be3/transformed/room-runtime-release/AndroidManifest.xml:26:13-43
+59            android:exported="false" />
+59-->[androidx.room:room-runtime-android:2.7.0-alpha10] /Users/ziky/.gradle/caches/transforms-4/cf54cc0f49a68f72cc24ab4c67165be3/transformed/room-runtime-release/AndroidManifest.xml:27:13-37
+60
+61        <activity
+61-->[androidx.compose.ui:ui-tooling-android:1.6.6] /Users/ziky/.gradle/caches/transforms-4/875eb60b7e93d216f709faee0f5f9989/transformed/ui-tooling-release/AndroidManifest.xml:23:9-25:39
+62            android:name="androidx.compose.ui.tooling.PreviewActivity"
+62-->[androidx.compose.ui:ui-tooling-android:1.6.6] /Users/ziky/.gradle/caches/transforms-4/875eb60b7e93d216f709faee0f5f9989/transformed/ui-tooling-release/AndroidManifest.xml:24:13-71
+63            android:exported="true" />
+63-->[androidx.compose.ui:ui-tooling-android:1.6.6] /Users/ziky/.gradle/caches/transforms-4/875eb60b7e93d216f709faee0f5f9989/transformed/ui-tooling-release/AndroidManifest.xml:25:13-36
+64        <activity
+64-->[androidx.compose.ui:ui-test-manifest:1.6.6] /Users/ziky/.gradle/caches/transforms-4/d203bdced57fd82515bf69dc32ea9e5c/transformed/ui-test-manifest-1.6.6/AndroidManifest.xml:23:9-25:39
+65            android:name="androidx.activity.ComponentActivity"
+65-->[androidx.compose.ui:ui-test-manifest:1.6.6] /Users/ziky/.gradle/caches/transforms-4/d203bdced57fd82515bf69dc32ea9e5c/transformed/ui-test-manifest-1.6.6/AndroidManifest.xml:24:13-63
+66            android:exported="true" />
+66-->[androidx.compose.ui:ui-test-manifest:1.6.6] /Users/ziky/.gradle/caches/transforms-4/d203bdced57fd82515bf69dc32ea9e5c/transformed/ui-test-manifest-1.6.6/AndroidManifest.xml:25:13-36
+67
+68        <provider
+68-->[androidx.emoji2:emoji2:1.3.0] /Users/ziky/.gradle/caches/transforms-4/9ed3e2789d5000d9963d770e42055eeb/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+69            android:name="androidx.startup.InitializationProvider"
+69-->[androidx.emoji2:emoji2:1.3.0] /Users/ziky/.gradle/caches/transforms-4/9ed3e2789d5000d9963d770e42055eeb/transformed/emoji2-1.3.0/AndroidManifest.xml:25:13-67
+70            android:authorities="com.nahziky.grocerylist.androidx-startup"
+70-->[androidx.emoji2:emoji2:1.3.0] /Users/ziky/.gradle/caches/transforms-4/9ed3e2789d5000d9963d770e42055eeb/transformed/emoji2-1.3.0/AndroidManifest.xml:26:13-68
+71            android:exported="false" >
+71-->[androidx.emoji2:emoji2:1.3.0] /Users/ziky/.gradle/caches/transforms-4/9ed3e2789d5000d9963d770e42055eeb/transformed/emoji2-1.3.0/AndroidManifest.xml:27:13-37
+72            <meta-data
+72-->[androidx.emoji2:emoji2:1.3.0] /Users/ziky/.gradle/caches/transforms-4/9ed3e2789d5000d9963d770e42055eeb/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+73                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+73-->[androidx.emoji2:emoji2:1.3.0] /Users/ziky/.gradle/caches/transforms-4/9ed3e2789d5000d9963d770e42055eeb/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
+74                android:value="androidx.startup" />
+74-->[androidx.emoji2:emoji2:1.3.0] /Users/ziky/.gradle/caches/transforms-4/9ed3e2789d5000d9963d770e42055eeb/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
+75            <meta-data
+75-->[androidx.lifecycle:lifecycle-process:2.8.6] /Users/ziky/.gradle/caches/transforms-4/cbf213a3cbb4369e358f230c915728a4/transformed/lifecycle-process-2.8.6/AndroidManifest.xml:29:13-31:52
+76                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+76-->[androidx.lifecycle:lifecycle-process:2.8.6] /Users/ziky/.gradle/caches/transforms-4/cbf213a3cbb4369e358f230c915728a4/transformed/lifecycle-process-2.8.6/AndroidManifest.xml:30:17-78
+77                android:value="androidx.startup" />
+77-->[androidx.lifecycle:lifecycle-process:2.8.6] /Users/ziky/.gradle/caches/transforms-4/cbf213a3cbb4369e358f230c915728a4/transformed/lifecycle-process-2.8.6/AndroidManifest.xml:31:17-49
+78            <meta-data
+78-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/ziky/.gradle/caches/transforms-4/cc18ffc3796acf372f8731d644d3183c/transformed/profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+79                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+79-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/ziky/.gradle/caches/transforms-4/cc18ffc3796acf372f8731d644d3183c/transformed/profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+80                android:value="androidx.startup" />
+80-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/ziky/.gradle/caches/transforms-4/cc18ffc3796acf372f8731d644d3183c/transformed/profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+81        </provider>
+82
+83        <receiver
+83-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/ziky/.gradle/caches/transforms-4/cc18ffc3796acf372f8731d644d3183c/transformed/profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+84            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+84-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/ziky/.gradle/caches/transforms-4/cc18ffc3796acf372f8731d644d3183c/transformed/profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+85            android:directBootAware="false"
+85-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/ziky/.gradle/caches/transforms-4/cc18ffc3796acf372f8731d644d3183c/transformed/profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+86            android:enabled="true"
+86-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/ziky/.gradle/caches/transforms-4/cc18ffc3796acf372f8731d644d3183c/transformed/profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+87            android:exported="true"
+87-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/ziky/.gradle/caches/transforms-4/cc18ffc3796acf372f8731d644d3183c/transformed/profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+88            android:permission="android.permission.DUMP" >
+88-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/ziky/.gradle/caches/transforms-4/cc18ffc3796acf372f8731d644d3183c/transformed/profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+89            <intent-filter>
+89-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/ziky/.gradle/caches/transforms-4/cc18ffc3796acf372f8731d644d3183c/transformed/profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+90                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+90-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/ziky/.gradle/caches/transforms-4/cc18ffc3796acf372f8731d644d3183c/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+90-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/ziky/.gradle/caches/transforms-4/cc18ffc3796acf372f8731d644d3183c/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+91            </intent-filter>
+92            <intent-filter>
+92-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/ziky/.gradle/caches/transforms-4/cc18ffc3796acf372f8731d644d3183c/transformed/profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+93                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+93-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/ziky/.gradle/caches/transforms-4/cc18ffc3796acf372f8731d644d3183c/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+93-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/ziky/.gradle/caches/transforms-4/cc18ffc3796acf372f8731d644d3183c/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+94            </intent-filter>
+95            <intent-filter>
+95-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/ziky/.gradle/caches/transforms-4/cc18ffc3796acf372f8731d644d3183c/transformed/profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+96                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+96-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/ziky/.gradle/caches/transforms-4/cc18ffc3796acf372f8731d644d3183c/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+96-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/ziky/.gradle/caches/transforms-4/cc18ffc3796acf372f8731d644d3183c/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+97            </intent-filter>
+98            <intent-filter>
+98-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/ziky/.gradle/caches/transforms-4/cc18ffc3796acf372f8731d644d3183c/transformed/profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+99                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+99-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/ziky/.gradle/caches/transforms-4/cc18ffc3796acf372f8731d644d3183c/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+99-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/ziky/.gradle/caches/transforms-4/cc18ffc3796acf372f8731d644d3183c/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:25-92
+100            </intent-filter>
+101        </receiver>
+102    </application>
+103
+104</manifest>

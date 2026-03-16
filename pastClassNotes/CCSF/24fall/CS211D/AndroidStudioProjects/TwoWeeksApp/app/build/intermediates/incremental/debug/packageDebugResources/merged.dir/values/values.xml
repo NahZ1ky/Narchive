@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="ic_launcher_background">#592B80</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">Emacs Tips for Two Weeks</string>
+    <string name="tip1">Before diving deep, always consult the documentation, use search engines, and explore support forums. These are your first lines of help.</string>
+    <string name="tip10">The Kill Ring stores text blocks that you’ve previously “killed” (cut). You can kill text in one buffer and yank (paste) it into another. Learning how the kill ring works will greatly enhance your editing workflow.</string>
+    <string name="tip11">Emacs offers several terminal options like shell, eshell, shell-mode, and ansi-term. Each has unique features, so explore them to see which suits your workflow best.</string>
+    <string name="tip12">Emacs is highly customizable. Use the M-x customize-themes command to change themes and make the environment feel like home. You can also tweak fonts with M-x customize-face.</string>
+    <string name="tip13">Bookmark important files and positions using C-x r m to set bookmarks and C-x r b to jump to them later. It’s a huge time-saver when working on multiple projects or sections of code.</string>
+    <string name="tip14">Emacs users often share their configurations online. Exploring others’ .emacs or init.el files can give you new ideas for customization and workflow improvements.</string>
+    <string name="tip2">Learn to navigate the Emacs help system efficiently. Use the C-h prefix for help commands, especially C-h r for the Emacs manual and C-h s for looking up symbols. The Help menu in the toolbar is also a good place to start.</string>
+    <string name="tip3">Take advantage of Emacs keyboard macros to automate tasks. As you progress, learning Elisp (Emacs Lisp) will unlock even more powerful customization and automation options.</string>
+    <string name="tip4">Begin with vanilla Emacs to understand its core features. Follow System Crafter’s “Emacs from Scratch” series to build a solid foundation step by step.</string>
+    <string name="tip5">The Mastering Emacs book offers great value and is worth the investment if you have the budget. Start by reading the free blog articles on Mastering Emacs to see if the style fits you.</string>
+    <string name="tip6">Emacs Lisp (Elisp) is the backbone of Emacs customization. Learn Elisp through the built-in info docs, starting with the “Emacs Lisp Intro” (accessible via C-h i).</string>
+    <string name="tip7">Org Mode is a powerful tool for managing notes, tasks, and more. It can replace apps like Notion and offers total control over your data, all stored in plain text.</string>
+    <string name="tip8">Emacs supports multiple package repositories, including the built-in ones and MELPA. Use M-x list-packages or go to Options > Manage Emacs Packages to browse and install packages.</string>
+    <string name="tip9">Emacs is best experienced as a keyboard-driven tool. Get familiar with key bindings to navigate and work efficiently.</string>
+    <string name="title1">Be Resourceful: Start with the Basics</string>
+    <string name="title10">Leverage the Power of the Kill Ring</string>
+    <string name="title11">Dive Into Built-in Terminals</string>
+    <string name="title12">Customize Everything: Themes and Fonts</string>
+    <string name="title13">Speed Up Navigation with Bookmarks</string>
+    <string name="title14">Learn from the Community: Explore Configs</string>
+    <string name="title2">Master the Emacs Help System</string>
+    <string name="title3">Automate Repetitive Tasks with Keyboard Macros</string>
+    <string name="title4">Start Simple: Vanilla Emacs with System Crafters</string>
+    <string name="title5">Invest in Learning: Mastering Emacs Book</string>
+    <string name="title6">Learn Elisp: The Golden Key</string>
+    <string name="title7">Maximize Your Workflow with Org Mode</string>
+    <string name="title8">Explore Emacs Package Repositories</string>
+    <string name="title9">Embrace the Keyboard-Driven Interface</string>
+    <style name="Theme.TwoWeeksApp" parent="android:Theme.Material.Light.NoActionBar"/>
+</resources>

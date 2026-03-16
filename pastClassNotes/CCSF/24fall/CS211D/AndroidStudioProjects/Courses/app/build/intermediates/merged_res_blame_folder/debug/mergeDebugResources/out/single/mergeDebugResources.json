@@ -1,0 +1,166 @@
+[
+    {
+        "merged": "com.nahziky.courses.app-debug-44:/drawable_drawing.jpg.flat",
+        "source": "com.nahziky.courses.app-main-46:/drawable/drawing.jpg"
+    },
+    {
+        "merged": "com.nahziky.courses.app-debug-44:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.nahziky.courses.app-main-46:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.nahziky.courses.app-debug-44:/drawable_music.jpeg.flat",
+        "source": "com.nahziky.courses.app-main-46:/drawable/music.jpeg"
+    },
+    {
+        "merged": "com.nahziky.courses.app-debug-44:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.nahziky.courses.app-main-46:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.nahziky.courses.app-debug-44:/drawable_journalism.jpeg.flat",
+        "source": "com.nahziky.courses.app-main-46:/drawable/journalism.jpeg"
+    },
+    {
+        "merged": "com.nahziky.courses.app-debug-44:/xml_backup_rules.xml.flat",
+        "source": "com.nahziky.courses.app-main-46:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.nahziky.courses.app-debug-44:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.nahziky.courses.app-main-46:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.nahziky.courses.app-debug-44:/drawable_geology.jpeg.flat",
+        "source": "com.nahziky.courses.app-main-46:/drawable/geology.jpeg"
+    },
+    {
+        "merged": "com.nahziky.courses.app-debug-44:/drawable_photography.jpg.flat",
+        "source": "com.nahziky.courses.app-main-46:/drawable/photography.jpg"
+    },
+    {
+        "merged": "com.nahziky.courses.app-debug-44:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.nahziky.courses.app-main-46:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.nahziky.courses.app-debug-44:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.nahziky.courses.app-main-46:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.nahziky.courses.app-debug-44:/drawable_fashion.jpg.flat",
+        "source": "com.nahziky.courses.app-main-46:/drawable/fashion.jpg"
+    },
+    {
+        "merged": "com.nahziky.courses.app-debug-44:/drawable_physics.jpg.flat",
+        "source": "com.nahziky.courses.app-main-46:/drawable/physics.jpg"
+    },
+    {
+        "merged": "com.nahziky.courses.app-debug-44:/drawable_ic_grain.xml.flat",
+        "source": "com.nahziky.courses.app-main-46:/drawable/ic_grain.xml"
+    },
+    {
+        "merged": "com.nahziky.courses.app-debug-44:/drawable_finance.jpeg.flat",
+        "source": "com.nahziky.courses.app-main-46:/drawable/finance.jpeg"
+    },
+    {
+        "merged": "com.nahziky.courses.app-debug-44:/drawable_biology.jpeg.flat",
+        "source": "com.nahziky.courses.app-main-46:/drawable/biology.jpeg"
+    },
+    {
+        "merged": "com.nahziky.courses.app-debug-44:/drawable_lifestyle.jpg.flat",
+        "source": "com.nahziky.courses.app-main-46:/drawable/lifestyle.jpg"
+    },
+    {
+        "merged": "com.nahziky.courses.app-debug-44:/drawable_gaming.jpg.flat",
+        "source": "com.nahziky.courses.app-main-46:/drawable/gaming.jpg"
+    },
+    {
+        "merged": "com.nahziky.courses.app-debug-44:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.nahziky.courses.app-main-46:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.nahziky.courses.app-debug-44:/drawable_painting.jpg.flat",
+        "source": "com.nahziky.courses.app-main-46:/drawable/painting.jpg"
+    },
+    {
+        "merged": "com.nahziky.courses.app-debug-44:/xml_data_extraction_rules.xml.flat",
+        "source": "com.nahziky.courses.app-main-46:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.nahziky.courses.app-debug-44:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.nahziky.courses.app-main-46:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.nahziky.courses.app-debug-44:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.nahziky.courses.app-main-46:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.nahziky.courses.app-debug-44:/drawable_history.jpeg.flat",
+        "source": "com.nahziky.courses.app-main-46:/drawable/history.jpeg"
+    },
+    {
+        "merged": "com.nahziky.courses.app-debug-44:/drawable_architecture.jpg.flat",
+        "source": "com.nahziky.courses.app-main-46:/drawable/architecture.jpg"
+    },
+    {
+        "merged": "com.nahziky.courses.app-debug-44:/drawable_culinary.jpg.flat",
+        "source": "com.nahziky.courses.app-main-46:/drawable/culinary.jpg"
+    },
+    {
+        "merged": "com.nahziky.courses.app-debug-44:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.nahziky.courses.app-main-46:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.nahziky.courses.app-debug-44:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.nahziky.courses.app-main-46:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.nahziky.courses.app-debug-44:/drawable_engineering.jpeg.flat",
+        "source": "com.nahziky.courses.app-main-46:/drawable/engineering.jpeg"
+    },
+    {
+        "merged": "com.nahziky.courses.app-debug-44:/drawable_tech.jpg.flat",
+        "source": "com.nahziky.courses.app-main-46:/drawable/tech.jpg"
+    },
+    {
+        "merged": "com.nahziky.courses.app-debug-44:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.nahziky.courses.app-main-46:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.nahziky.courses.app-debug-44:/drawable_law.jpeg.flat",
+        "source": "com.nahziky.courses.app-main-46:/drawable/law.jpeg"
+    },
+    {
+        "merged": "com.nahziky.courses.app-debug-44:/drawable_crafts.jpg.flat",
+        "source": "com.nahziky.courses.app-main-46:/drawable/crafts.jpg"
+    },
+    {
+        "merged": "com.nahziky.courses.app-debug-44:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.nahziky.courses.app-main-46:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.nahziky.courses.app-debug-44:/drawable_ecology.jpeg.flat",
+        "source": "com.nahziky.courses.app-main-46:/drawable/ecology.jpeg"
+    },
+    {
+        "merged": "com.nahziky.courses.app-debug-44:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.nahziky.courses.app-main-46:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.nahziky.courses.app-debug-44:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.nahziky.courses.app-main-46:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.nahziky.courses.app-debug-44:/drawable_design.jpg.flat",
+        "source": "com.nahziky.courses.app-main-46:/drawable/design.jpg"
+    },
+    {
+        "merged": "com.nahziky.courses.app-debug-44:/drawable_film.jpg.flat",
+        "source": "com.nahziky.courses.app-main-46:/drawable/film.jpg"
+    },
+    {
+        "merged": "com.nahziky.courses.app-debug-44:/drawable_automotive.jpeg.flat",
+        "source": "com.nahziky.courses.app-main-46:/drawable/automotive.jpeg"
+    },
+    {
+        "merged": "com.nahziky.courses.app-debug-44:/drawable_business.jpg.flat",
+        "source": "com.nahziky.courses.app-main-46:/drawable/business.jpg"
+    }
+]

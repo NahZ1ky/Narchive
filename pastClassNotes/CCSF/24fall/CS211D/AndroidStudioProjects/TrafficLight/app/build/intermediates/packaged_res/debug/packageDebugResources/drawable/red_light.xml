@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="160dp"
+    android:height="200dp"
+    android:viewportWidth="160"
+    android:viewportHeight="200">
+
+    <!-- Traffic light body -->
+    <path
+        android:pathData="M20,10h120v180H20z"
+        android:fillColor="#000000"/>
+
+    <!-- Red light -->
+    <path
+        android:pathData="M80,16a30,30 0,1 1,0,60a30,30 0,1 1,0,-60"
+        android:fillColor="#FF0000"/>
+</vector>

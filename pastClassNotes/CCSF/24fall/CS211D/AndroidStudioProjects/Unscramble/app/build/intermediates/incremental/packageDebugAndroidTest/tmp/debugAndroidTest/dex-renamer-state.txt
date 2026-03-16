@@ -1,0 +1,4 @@
+#Fri Oct 18 12:29:46 PDT 2024
+base.0=/Users/ziky/Documents/GitHub/CS_211D/AndroidStudioProjects/Unscramble/app/build/intermediates/dex/debugAndroidTest/mergeProjectDexDebugAndroidTest/0/classes.dex
+path.0=0/classes.dex
+renamed.0=classes.dex

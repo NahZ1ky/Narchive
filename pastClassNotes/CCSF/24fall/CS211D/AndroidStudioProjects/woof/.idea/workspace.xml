@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="59be1829-6f2d-4f44-9d1a-66a9149674ce" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Courses/app/src/main/java/com/nahziky/courses/data/DataSource.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Courses/app/src/main/java/com/nahziky/courses/model/Topic.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Courses/app/src/main/res/drawable/architecture.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Courses/app/src/main/res/drawable/automotive.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Courses/app/src/main/res/drawable/biology.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Courses/app/src/main/res/drawable/business.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Courses/app/src/main/res/drawable/crafts.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Courses/app/src/main/res/drawable/culinary.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Courses/app/src/main/res/drawable/design.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Courses/app/src/main/res/drawable/drawing.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Courses/app/src/main/res/drawable/ecology.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Courses/app/src/main/res/drawable/engineering.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Courses/app/src/main/res/drawable/fashion.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Courses/app/src/main/res/drawable/film.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Courses/app/src/main/res/drawable/finance.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Courses/app/src/main/res/drawable/gaming.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Courses/app/src/main/res/drawable/geology.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Courses/app/src/main/res/drawable/history.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Courses/app/src/main/res/drawable/ic_grain.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Courses/app/src/main/res/drawable/journalism.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Courses/app/src/main/res/drawable/law.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Courses/app/src/main/res/drawable/lifestyle.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Courses/app/src/main/res/drawable/music.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Courses/app/src/main/res/drawable/painting.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Courses/app/src/main/res/drawable/photography.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Courses/app/src/main/res/drawable/physics.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Courses/app/src/main/res/drawable/tech.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SuperHero/app/src/main/java/com/nahziky/superhero/HeroesScreen.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SuperHero/app/src/main/java/com/nahziky/superhero/MainActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SuperHero/app/src/main/java/com/nahziky/superhero/data/SuperHero.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SuperHero/app/src/main/java/com/nahziky/superhero/ui/theme/Color.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SuperHero/app/src/main/java/com/nahziky/superhero/ui/theme/Shape.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SuperHero/app/src/main/java/com/nahziky/superhero/ui/theme/Theme.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SuperHero/app/src/main/java/com/nahziky/superhero/ui/theme/Type.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SuperHero/app/src/main/res/drawable/android_superhero1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SuperHero/app/src/main/res/drawable/android_superhero2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SuperHero/app/src/main/res/drawable/android_superhero3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SuperHero/app/src/main/res/drawable/android_superhero4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SuperHero/app/src/main/res/drawable/android_superhero5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SuperHero/app/src/main/res/drawable/android_superhero6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SuperHero/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SuperHero/app/src/main/res/drawable/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SuperHero/app/src/main/res/font/cabin_bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SuperHero/app/src/main/res/font/cabin_regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SuperHero/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwoWeeksApp/app/src/main/java/com/nahziky/twoweeksapp/MainActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwoWeeksApp/app/src/main/java/com/nahziky/twoweeksapp/data/DataSource.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwoWeeksApp/app/src/main/java/com/nahziky/twoweeksapp/model/Tips.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwoWeeksApp/app/src/main/java/com/nahziky/twoweeksapp/ui/theme/Color.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwoWeeksApp/app/src/main/java/com/nahziky/twoweeksapp/ui/theme/Theme.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwoWeeksApp/app/src/main/java/com/nahziky/twoweeksapp/ui/theme/Type.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwoWeeksApp/app/src/main/res/drawable/aztec_gnu_monitor.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwoWeeksApp/app/src/main/res/drawable/bookish_gnu_alt.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwoWeeksApp/app/src/main/res/drawable/city_of_pianos.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwoWeeksApp/app/src/main/res/drawable/clockwork.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwoWeeksApp/app/src/main/res/drawable/gnu_mirror_tarot.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwoWeeksApp/app/src/main/res/drawable/gnu_standing_on_a_clown_sized_pi.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwoWeeksApp/app/src/main/res/drawable/gnu_standing_on_piles_of_paper.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwoWeeksApp/app/src/main/res/drawable/hippie.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwoWeeksApp/app/src/main/res/drawable/isometric_cubic_gnu.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwoWeeksApp/app/src/main/res/drawable/monochrome_gnu.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwoWeeksApp/app/src/main/res/drawable/placeholder_image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwoWeeksApp/app/src/main/res/drawable/purple.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwoWeeksApp/app/src/main/res/drawable/speedy_gnuzales.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwoWeeksApp/app/src/main/res/drawable/stained_glass_gnu.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwoWeeksApp/app/src/main/res/drawable/starry_gnu_book.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwoWeeksApp/app/src/main/res/font/monserrat_bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwoWeeksApp/app/src/main/res/font/roboto_mono_regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TwoWeeksApp/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../basic-android-kotlin-compose-training-affirmations-starter/app/src/main/java/com/example/affirmations/model/Affirmation.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../basic-android-kotlin-compose-training-affirmations-starter/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../basic-android-kotlin-compose-training-affirmations-starter/app/src/main/res/mipmap-hdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../basic-android-kotlin-compose-training-affirmations-starter/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../basic-android-kotlin-compose-training-affirmations-starter/app/src/main/res/mipmap-mdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../basic-android-kotlin-compose-training-affirmations-starter/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../basic-android-kotlin-compose-training-affirmations-starter/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../basic-android-kotlin-compose-training-affirmations-starter/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/nahziky/woof/data/Dog.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/nahziky/woof/ui/theme/Shape.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/bella.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/faye.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/frankie.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_woof_logo.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/koda.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/leroy.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/lola.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/moana.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/nox.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/tzeitel.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/font/abril_fatface_regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/font/montserrat_bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/font/montserrat_regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/themes.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Class" />
+        <option value="Kotlin File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;NahZ1ky&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/NahZ1ky/CS_211D.git&quot;,
+    &quot;accountId&quot;: &quot;e312a10a-bb4b-4ab7-b323-197e8e2059bd&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2n2riNucSL091Yi1YcnzjCJLN7m" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;AndroidSdkUpdater&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;kotlin-gradle-user-dirs&quot;: [
+      &quot;/Users/ziky/.gradle&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/main/res/font" />
+      <recent name="$PROJECT_DIR$/app/src/main/java/com/nahziky/woof/ui/theme" />
+      <recent name="$PROJECT_DIR$/app/src/main/res/values" />
+      <recent name="$PROJECT_DIR$/app/src/main/res/drawable" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="woof.app.main" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="ALWAYS_INSTALL_WITH_PM" value="false" />
+      <option name="CLEAR_APP_STORAGE" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Hybrid>
+      <Java>
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Java>
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Java/Kotlin Method Sample (legacy)" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="59be1829-6f2d-4f44-9d1a-66a9149674ce" name="Changes" comment="" />
+      <created>1728182137976</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1728182137976</updated>
+    </task>
+    <servers />
+  </component>
+</project>

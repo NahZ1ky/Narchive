@@ -1,0 +1,4 @@
+com.example.unscramble.test.app-androidTest-0 /Users/ziky/Documents/GitHub/CS_211D/AndroidStudioProjects/Unscramble/app/build/generated/res/resValues/androidTest/debug
+com.example.unscramble.test.app-mergeDebugAndroidTestResources-1 /Users/ziky/Documents/GitHub/CS_211D/AndroidStudioProjects/Unscramble/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/merged.dir
+com.example.unscramble.test.app-mergeDebugAndroidTestResources-2 /Users/ziky/Documents/GitHub/CS_211D/AndroidStudioProjects/Unscramble/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/stripped.dir
+com.example.unscramble.test.app-merged_res-3 /Users/ziky/Documents/GitHub/CS_211D/AndroidStudioProjects/Unscramble/app/build/intermediates/merged_res/debugAndroidTest

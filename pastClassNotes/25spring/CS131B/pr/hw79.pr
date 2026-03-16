@@ -1,7 +1,0 @@
-p5	simply lovely. short 5 line of code covers all the quirements ask for. could be better with some basic comments written though. good job.
-26	great job copying the inputs to a new list before you do anything with it. in this assignment, it's not a hard requirement but in more complex program, keeping a copy of the input is not a bad idea, but doing it twice might be unneccessary(?). smart thinking on the finally for loop, took me a second to understand the logic. great job with the comments too.
-in	looks perfect. took a different route from the others i reviewed on the for loop part. simple and clear comments.
-9d	seeing some duplications in the code, but that doesn't doesn't change how the code should run, i'll pretend i didn't see that. great overall commenting in this code. the block for reversing the order of argument is quite unique from the codes i've reviewed. great job.
-fd	the finally printing statement looks so beautiful. not very sure what the "pp" right after import does, but it doesn't quite interfere the rest of the code. i love how you wrote a instruction and example on how to run the code.
-54	simple and clean code. student didn't exclude file name out of the arguments but since that is also how it was shown in the expected output, i'd say pass. great job with those comments.
-6a	simply lovely. very effient code, also the comments. just a great piece of code to look at. the output are just fine too. great job.

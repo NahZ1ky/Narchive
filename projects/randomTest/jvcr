@@ -1,9 +1,0 @@
-#! /bin/env sh
-
-jvcr () {
-    javafile="$1.java"
-    classfile="$1"
-
-    javac $javafile || return 1
-    java $classfile || return 2
-}
